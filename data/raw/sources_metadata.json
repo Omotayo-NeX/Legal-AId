@@ -1,0 +1,86 @@
+{
+  "download_timestamp": "2025-11-04T14:39:18.726004",
+  "timezone": "Africa/Lagos",
+  "sources": [
+    {
+      "name": "Nigeria Tax Bill 2024",
+      "url": "https://nass.gov.ng/wp-content/uploads/2024/10/Nigeria-Tax-Bill-2024.pdf",
+      "filename": "nigeria_tax_bill_2024.pdf",
+      "description": "Main Nigeria Tax Bill 2024 from National Assembly",
+      "type": "primary_legislation",
+      "downloaded": true,
+      "file_size_bytes": 41156,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/nigeria_tax_bill_2024.pdf"
+    },
+    {
+      "name": "Tax Administration Bill 2024",
+      "url": "https://nass.gov.ng/wp-content/uploads/2024/10/Nigeria-Tax-Administration-Bill-2024.pdf",
+      "filename": "tax_administration_bill_2024.pdf",
+      "description": "Tax Administration Bill 2024",
+      "type": "primary_legislation",
+      "downloaded": true,
+      "file_size_bytes": 41156,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/tax_administration_bill_2024.pdf"
+    },
+    {
+      "name": "Nigeria Revenue Service Bill 2024",
+      "url": "https://nass.gov.ng/wp-content/uploads/2024/10/Nigeria-Revenue-Service-Establishment-Bill-2024.pdf",
+      "filename": "revenue_service_bill_2024.pdf",
+      "description": "Nigeria Revenue Service Establishment Bill",
+      "type": "primary_legislation",
+      "downloaded": true,
+      "file_size_bytes": 41156,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/revenue_service_bill_2024.pdf"
+    },
+    {
+      "name": "Joint Revenue Board Bill 2024",
+      "url": "https://nass.gov.ng/wp-content/uploads/2024/10/Joint-Revenue-Board-Establishment-Bill-2024.pdf",
+      "filename": "joint_revenue_board_bill_2024.pdf",
+      "description": "Joint Revenue Board Establishment Bill",
+      "type": "primary_legislation",
+      "downloaded": true,
+      "file_size_bytes": 41156,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/joint_revenue_board_bill_2024.pdf"
+    },
+    {
+      "name": "Nigeria Tax Reform Act 2025 (Sample)",
+      "url": "local",
+      "filename": "nigeria_tax_reform_act_2025_sample.pdf",
+      "description": "Sample document with realistic tax content",
+      "type": "primary_legislation",
+      "downloaded": true,
+      "file_size_bytes": 9532,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/nigeria_tax_reform_act_2025_sample.pdf"
+    },
+    {
+      "name": "Tax Identification Number (TIN) Guide for Nigerian Businesses",
+      "url": "local",
+      "filename": "tax_identification_number_tin_guide.pdf",
+      "description": "Comprehensive guide on TIN requirements, application process, and compliance for Nigerian businesses",
+      "type": "guidance_document",
+      "downloaded": true,
+      "file_size_bytes": 14354,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/tax_identification_number_tin_guide.pdf"
+    },
+    {
+      "name": "Personal Income Tax Reforms 2025",
+      "url": "local",
+      "filename": "personal_income_tax_reforms_2025.pdf",
+      "description": "Key changes to personal income tax under Nigeria Tax Act 2025, including residency rules, tax rates, and compliance requirements",
+      "type": "guidance_document",
+      "downloaded": true,
+      "file_size_bytes": 10494,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/personal_income_tax_reforms_2025.pdf"
+    },
+    {
+      "name": "Nigeria 2025 Tax Reform Laws Overview",
+      "url": "local",
+      "filename": "nigeria_2025_tax_reform_laws_overview.pdf",
+      "description": "Comprehensive overview of all four 2025 Tax Reform Acts: Nigeria Tax Act, Tax Administration Act, Revenue Service Act, and Joint Revenue Board Act",
+      "type": "guidance_document",
+      "downloaded": true,
+      "file_size_bytes": 19495,
+      "local_path": "/Users/mac/Desktop/Legal AId/data/raw/nigeria_2025_tax_reform_laws_overview.pdf"
+    }
+  ]
+}

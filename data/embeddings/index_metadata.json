@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-05T21:25:23.010099",
+  "timezone": "Africa/Lagos",
+  "model": "text-embedding-3-small",
+  "dimension": 1536,
+  "total_chunks": 78,
+  "faiss_index_path": "/Users/mac/Desktop/Legal AId/data/embeddings/faiss_index.bin",
+  "embeddings_path": "/Users/mac/Desktop/Legal AId/data/embeddings/embeddings.npy",
+  "chromadb_path": "/Users/mac/Desktop/Legal AId/data/embeddings/chromadb"
+}

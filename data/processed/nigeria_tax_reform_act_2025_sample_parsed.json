@@ -1,0 +1,667 @@
+{
+  "source_file": "/Users/mac/Desktop/Legal AId/data/raw/nigeria_tax_reform_act_2025_sample.pdf",
+  "filename": "nigeria_tax_reform_act_2025_sample.pdf",
+  "parse_timestamp": "2025-11-05T20:26:23.449497",
+  "timezone": "Africa/Lagos",
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "(anonymous)",
+    "author": "(anonymous)",
+    "subject": "(unspecified)",
+    "keywords": "",
+    "creator": "(unspecified)",
+    "producer": "ReportLab PDF Library - www.reportlab.com",
+    "creationDate": "D:20251104144059+01'00'",
+    "modDate": "D:20251104144059+01'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "page_count": 7,
+  "toc": [],
+  "sections": [
+    {
+      "type": "part",
+      "number": "I",
+      "title": "PRELIMINARY",
+      "page_start": 1,
+      "page_end": 1,
+      "content": ""
+    },
+    {
+      "type": "section",
+      "number": "1",
+      "title": "Commencement",
+      "page_start": 1,
+      "page_end": 1,
+      "content": "This Act shall commence on 1st January 2026 and shall apply to all taxable income derived on or\nafter the commencement date. The provisions of this Act supersede all previous tax legislation\nincluding the Companies Income Tax Act (CITA) and the Personal Income Tax Act (PITA).\n"
+    },
+    {
+      "type": "section",
+      "number": "2",
+      "title": "Interpretation",
+      "page_start": 1,
+      "page_end": 1,
+      "content": "In this Act, unless the context otherwise requires:\n\"taxable income\" means the gross income of a person for a year of assessment after deducting all\nallowable expenses and reliefs as provided under this Act;\n\"company\" means a body corporate established under the laws of Nigeria or any other jurisdiction,\nincluding corporations, partnerships, and limited liability companies;\n\"individual\" means a natural person who is resident in Nigeria or derives income from Nigeria,\nsubject to personal income taxation under this Act;\n\"digital asset\" means any digital representation of value or contractual rights that can be\ntransferred, stored, or traded electronically, including but not limited to cryptocurrencies, virtual\ncurrencies, non-fungible tokens (NFTs), and other blockchain-based assets;\n\"virtual asset\" has the same meaning as digital asset;\n"
+    },
+    {
+      "type": "part",
+      "number": "II",
+      "title": "TAXABLE INCOME",
+      "page_start": 2,
+      "page_end": 2,
+      "content": ""
+    },
+    {
+      "type": "section",
+      "number": "3",
+      "title": "Taxable Income for Companies",
+      "page_start": 2,
+      "page_end": 2,
+      "content": "The taxable income of a company for a year of assessment shall consist of:\n(a) profits from trade, business, profession, or vocation;\n(b) gains from the disposal of assets;\n(c) dividends, interests, royalties, and rents;\n(d) income from digital assets and virtual assets;\n(e) any other income derived from sources within or outside Nigeria.\nFor the purposes of computing taxable income, a company may deduct all expenses wholly,\nexclusively, and necessarily incurred in the production of income, including depreciation\nallowances, pension contributions, and bad debts written off.\n"
+    },
+    {
+      "type": "section",
+      "number": "4",
+      "title": "Taxable Income for Individuals",
+      "page_start": 2,
+      "page_end": 2,
+      "content": "The taxable income of an individual for a year of assessment shall include:\n(a) emoluments from employment including salaries, wages, bonuses, and allowances;\n(b) income from business or professional practice;\n(c) gains from the disposal of assets;\n(d) investment income including dividends, interests, and rents;\n(e) income from digital and virtual assets;\n(f) any other income from sources within or outside Nigeria.\nAn individual shall be entitled to deductions including consolidated relief allowance calculated as\n1% of gross income or I200,000 (whichever is higher) plus 20% of gross income.\n"
+    },
+    {
+      "type": "part",
+      "number": "III",
+      "title": "DIGITAL AND VIRTUAL ASSETS",
+      "page_start": 3,
+      "page_end": 3,
+      "content": ""
+    },
+    {
+      "type": "section",
+      "number": "5",
+      "title": "Taxation of Digital Assets",
+      "page_start": 3,
+      "page_end": 3,
+      "content": "Digital assets and virtual assets are covered under this Act and shall be subject to taxation as\nfollows:\n(a) gains from the disposal of digital assets shall be treated as capital gains and taxed at the\napplicable capital gains tax rate of 10%;\n(b) income derived from mining, staking, or validating blockchain transactions shall be treated as\nbusiness income;\n(c) digital assets received as payment for goods or services shall be valued at fair market value at\nthe time of receipt.\nProvided that the Nigeria Revenue Service may issue guidelines for the valuation and reporting of\ndigital asset transactions.\n"
+    },
+    {
+      "type": "part",
+      "number": "IV",
+      "title": "ADMINISTRATION",
+      "page_start": 4,
+      "page_end": 4,
+      "content": ""
+    },
+    {
+      "type": "section",
+      "number": "6",
+      "title": "Nigeria Revenue Service",
+      "page_start": 4,
+      "page_end": 4,
+      "content": "The Federal Inland Revenue Service (FIRS) is hereby replaced by the Nigeria Revenue Service\n(NRS) which shall be the primary tax authority responsible for the administration and collection of\ntaxes under this Act. The NRS shall:\n(a) assess, collect, and account for all federal taxes;\n(b) enforce compliance with tax laws;\n(c) maintain a central tax database;\n(d) coordinate with state revenue services.\nThe NRS shall operate under the supervision of the Joint Revenue Board established under the\nJoint Revenue Board Establishment Act 2024.\n"
+    },
+    {
+      "type": "part",
+      "number": "V",
+      "title": "DIVIDENDS AND DISTRIBUTIONS",
+      "page_start": 5,
+      "page_end": 5,
+      "content": ""
+    },
+    {
+      "type": "section",
+      "number": "7",
+      "title": "Treatment of Dividends",
+      "page_start": 5,
+      "page_end": 5,
+      "content": "Dividends paid by a company shall be subject to withholding tax at the rate of 10%. However,\ndividends paid out of profits that have not been subjected to tax (untaxed profits) shall be treated as\nfollows:\n(a) the company shall first pay corporation tax on such profits at the prevailing rate of 30%;\n(b) after payment of corporation tax, the dividend withholding tax of 10% shall apply to the net\namount distributed;\n(c) the recipient of such dividends shall be entitled to a tax credit for the corporation tax paid by the\ncompany.\nDividends paid from previously taxed profits shall only be subject to the 10% withholding tax without\nfurther corporation tax liability.\n"
+    },
+    {
+      "type": "part",
+      "number": "VI",
+      "title": "VALUE ADDED TAX",
+      "page_start": 6,
+      "page_end": 6,
+      "content": ""
+    },
+    {
+      "type": "section",
+      "number": "8",
+      "title": "VAT Rate and Application",
+      "page_start": 6,
+      "page_end": 6,
+      "content": "Value Added Tax (VAT) shall be charged at the rate of 7.5% on the supply of all goods and services\nin Nigeria, except those specifically exempted under Schedule 2 of this Act.\nThe following persons shall register for VAT and charge VAT on their supplies:\n(a) any person whose annual turnover exceeds I25,000,000;\n(b) any person who imports goods or services into Nigeria;\n(c) any person who makes taxable supplies regardless of turnover, at their option.\n"
+    },
+    {
+      "type": "section",
+      "number": "9",
+      "title": "VAT Registration for Freelancers",
+      "page_start": 6,
+      "page_end": 6,
+      "content": "Freelancers and independent contractors need to charge VAT under the 2026 Nigerian tax law if\nthey meet the following conditions:\n(a) their annual turnover from freelance services exceeds I25,000,000;\n(b) they provide services that are not exempt under Schedule 2;\n(c) they invoice clients registered in Nigeria.\nFreelancers with turnover below I25,000,000 are not required to register for VAT unless they\nvoluntarily choose to do so. Provided that freelancers providing exempt services (such as medical,\neducational, or charitable services) are not required to charge VAT regardless of turnover.\n"
+    },
+    {
+      "type": "part",
+      "number": "VII",
+      "title": "TAX RATES",
+      "page_start": 7,
+      "page_end": 7,
+      "content": ""
+    },
+    {
+      "type": "section",
+      "number": "10",
+      "title": "Corporation Tax Rate",
+      "page_start": 7,
+      "page_end": 7,
+      "content": "Corporation tax shall be charged at the rate of 30% on the taxable income of companies. Provided\nthat small companies with turnover not exceeding I25,000,000 shall pay tax at the rate of 20% on\ntheir taxable income.\n"
+    },
+    {
+      "type": "section",
+      "number": "11",
+      "title": "Personal Income Tax Rates",
+      "page_start": 7,
+      "page_end": 7,
+      "content": "Personal income tax shall be charged at the following graduated rates:\n(a) first I300,000 of taxable income: 7%\n(b) next I300,000: 11%\n(c) next I500,000: 15%\n(d) next I500,000: 19%\n(e) next I1,600,000: 21%\n(f) above I3,200,000: 24%\n"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "taxable income",
+      "context": "this Act, unless the context otherwise requires:\n\"taxable income\" means the gross income of a person for a year of assessment after deducting all\nallowable expenses and reliefs as provided under this Act;\n\"company\" means a body corporate established under the laws of Nig",
+      "page": 1
+    },
+    {
+      "term": "company",
+      "context": "expenses and reliefs as provided under this Act;\n\"company\" means a body corporate established under the laws of Nigeria or any other jurisdiction,\nincluding corporations, partnerships, and limited liability companies;\n\"individual\" means a natural person who is res",
+      "page": 1
+    },
+    {
+      "term": "individual",
+      "context": "s, partnerships, and limited liability companies;\n\"individual\" means a natural person who is resident in Nigeria or derives income from Nigeria,\nsubject to personal income taxation under this Act;\n\"digital asset\" means any digital representation of value or contractua",
+      "page": 1
+    },
+    {
+      "term": "digital asset",
+      "context": "bject to personal income taxation under this Act;\n\"digital asset\" means any digital representation of value or contractual rights that can be\ntransferred, stored, or traded electronically, including but not limited to cryptocurrencies, virtual\ncurrencies, non-fungible to",
+      "page": 1
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "NIGERIA TAX REFORM ACT 2025\nPART I - PRELIMINARY\nSection 1. Commencement\nThis Act shall commence on 1st January 2026 and shall apply to all taxable income derived on or\nafter the commencement date. The provisions of this Act supersede all previous tax legislation\nincluding the Companies Income Tax Act (CITA) and the Personal Income Tax Act (PITA).\nSection 2. Interpretation\nIn this Act, unless the context otherwise requires:\n\"taxable income\" means the gross income of a person for a year of assessment after deducting all\nallowable expenses and reliefs as provided under this Act;\n\"company\" means a body corporate established under the laws of Nigeria or any other jurisdiction,\nincluding corporations, partnerships, and limited liability companies;\n\"individual\" means a natural person who is resident in Nigeria or derives income from Nigeria,\nsubject to personal income taxation under this Act;\n\"digital asset\" means any digital representation of value or contractual rights that can be\ntransferred, stored, or traded electronically, including but not limited to cryptocurrencies, virtual\ncurrencies, non-fungible tokens (NFTs), and other blockchain-based assets;\n\"virtual asset\" has the same meaning as digital asset;\n",
+      "blocks": [
+        {
+          "text": "NIGERIA TAX REFORM ACT 2025",
+          "bbox": [
+            186.4008026123047,
+            77.0199966430664,
+            408.874755859375,
+            96.29800415039062
+          ],
+          "page": 1
+        },
+        {
+          "text": "PART I - PRELIMINARY",
+          "bbox": [
+            78.0,
+            130.74000549316406,
+            277.0080261230469,
+            155.5260009765625
+          ],
+          "page": 1
+        },
+        {
+          "text": "Section 1. Commencement",
+          "bbox": [
+            78.0,
+            183.02000427246094,
+            256.9339904785156,
+            202.29800415039062
+          ],
+          "page": 1
+        },
+        {
+          "text": "This Act shall commence on 1st January 2026 and shall apply to all taxable income derived on or\nafter the commencement date. The provisions of this Act supersede all previous tax legislation\nincluding the Companies Income Tax Act (CITA) and the Personal Income Tax Act (PITA).",
+          "bbox": [
+            78.0,
+            207.25,
+            517.2755737304688,
+            244.99000549316406
+          ],
+          "page": 1
+        },
+        {
+          "text": "Section 2. Interpretation",
+          "bbox": [
+            78.0,
+            267.0199890136719,
+            238.25802612304688,
+            286.2980041503906
+          ],
+          "page": 1
+        },
+        {
+          "text": "In this Act, unless the context otherwise requires:",
+          "bbox": [
+            78.0,
+            291.2499694824219,
+            295.3199768066406,
+            304.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "\"taxable income\" means the gross income of a person for a year of assessment after deducting all\nallowable expenses and reliefs as provided under this Act;",
+          "bbox": [
+            78.0,
+            315.2499694824219,
+            517.2755126953125,
+            340.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "\"company\" means a body corporate established under the laws of Nigeria or any other jurisdiction,\nincluding corporations, partnerships, and limited liability companies;",
+          "bbox": [
+            78.0,
+            351.2499694824219,
+            517.2755126953125,
+            376.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "\"individual\" means a natural person who is resident in Nigeria or derives income from Nigeria,\nsubject to personal income taxation under this Act;",
+          "bbox": [
+            78.0,
+            387.2499694824219,
+            517.275390625,
+            412.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "\"digital asset\" means any digital representation of value or contractual rights that can be\ntransferred, stored, or traded electronically, including but not limited to cryptocurrencies, virtual\ncurrencies, non-fungible tokens (NFTs), and other blockchain-based assets;",
+          "bbox": [
+            78.0,
+            423.2499694824219,
+            517.2754516601562,
+            460.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "\"virtual asset\" has the same meaning as digital asset;",
+          "bbox": [
+            78.0,
+            471.2499694824219,
+            314.0899353027344,
+            484.9899597167969
+          ],
+          "page": 1
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 2,
+      "text": "PART II - TAXABLE INCOME\nSection 3. Taxable Income for Companies\nThe taxable income of a company for a year of assessment shall consist of:\n(a) profits from trade, business, profession, or vocation;\n(b) gains from the disposal of assets;\n(c) dividends, interests, royalties, and rents;\n(d) income from digital assets and virtual assets;\n(e) any other income derived from sources within or outside Nigeria.\nFor the purposes of computing taxable income, a company may deduct all expenses wholly,\nexclusively, and necessarily incurred in the production of income, including depreciation\nallowances, pension contributions, and bad debts written off.\nSection 4. Taxable Income for Individuals\nThe taxable income of an individual for a year of assessment shall include:\n(a) emoluments from employment including salaries, wages, bonuses, and allowances;\n(b) income from business or professional practice;\n(c) gains from the disposal of assets;\n(d) investment income including dividends, interests, and rents;\n(e) income from digital and virtual assets;\n(f) any other income from sources within or outside Nigeria.\nAn individual shall be entitled to deductions including consolidated relief allowance calculated as\n1% of gross income or I200,000 (whichever is higher) plus 20% of gross income.\n",
+      "blocks": [
+        {
+          "text": "PART II - TAXABLE INCOME",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            320.0100402832031,
+            101.5260009765625
+          ],
+          "page": 2
+        },
+        {
+          "text": "Section 3. Taxable Income for Companies",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            354.97601318359375,
+            148.29800415039062
+          ],
+          "page": 2
+        },
+        {
+          "text": "The taxable income of a company for a year of assessment shall consist of:\n(a) profits from trade, business, profession, or vocation;\n(b) gains from the disposal of assets;\n(c) dividends, interests, royalties, and rents;\n(d) income from digital assets and virtual assets;\n(e) any other income derived from sources within or outside Nigeria.",
+          "bbox": [
+            78.0,
+            153.25,
+            411.4799499511719,
+            226.99000549316406
+          ],
+          "page": 2
+        },
+        {
+          "text": "For the purposes of computing taxable income, a company may deduct all expenses wholly,\nexclusively, and necessarily incurred in the production of income, including depreciation\nallowances, pension contributions, and bad debts written off.",
+          "bbox": [
+            78.0,
+            237.25,
+            517.2755126953125,
+            274.989990234375
+          ],
+          "page": 2
+        },
+        {
+          "text": "Section 4. Taxable Income for Individuals",
+          "bbox": [
+            78.0,
+            297.0199890136719,
+            352.6520080566406,
+            316.2980041503906
+          ],
+          "page": 2
+        },
+        {
+          "text": "The taxable income of an individual for a year of assessment shall include:\n(a) emoluments from employment including salaries, wages, bonuses, and allowances;\n(b) income from business or professional practice;\n(c) gains from the disposal of assets;\n(d) investment income including dividends, interests, and rents;\n(e) income from digital and virtual assets;\n(f) any other income from sources within or outside Nigeria.",
+          "bbox": [
+            78.0,
+            321.2499694824219,
+            462.0299377441406,
+            406.9899597167969
+          ],
+          "page": 2
+        },
+        {
+          "text": "An individual shall be entitled to deductions including consolidated relief allowance calculated as\n1% of gross income or I200,000 (whichever is higher) plus 20% of gross income.",
+          "bbox": [
+            78.0,
+            417.2499694824219,
+            517.2755126953125,
+            442.9899597167969
+          ],
+          "page": 2
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 3,
+      "text": "PART III - DIGITAL AND VIRTUAL ASSETS\nSection 5. Taxation of Digital Assets\nDigital assets and virtual assets are covered under this Act and shall be subject to taxation as\nfollows:\n(a) gains from the disposal of digital assets shall be treated as capital gains and taxed at the\napplicable capital gains tax rate of 10%;\n(b) income derived from mining, staking, or validating blockchain transactions shall be treated as\nbusiness income;\n(c) digital assets received as payment for goods or services shall be valued at fair market value at\nthe time of receipt.\nProvided that the Nigeria Revenue Service may issue guidelines for the valuation and reporting of\ndigital asset transactions.\n",
+      "blocks": [
+        {
+          "text": "PART III - DIGITAL AND VIRTUAL ASSETS",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            439.0260314941406,
+            101.5260009765625
+          ],
+          "page": 3
+        },
+        {
+          "text": "Section 5. Taxation of Digital Assets",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            319.1780090332031,
+            148.29800415039062
+          ],
+          "page": 3
+        },
+        {
+          "text": "Digital assets and virtual assets are covered under this Act and shall be subject to taxation as\nfollows:\n(a) gains from the disposal of digital assets shall be treated as capital gains and taxed at the\napplicable capital gains tax rate of 10%;\n(b) income derived from mining, staking, or validating blockchain transactions shall be treated as\nbusiness income;\n(c) digital assets received as payment for goods or services shall be valued at fair market value at\nthe time of receipt.",
+          "bbox": [
+            78.0,
+            153.25,
+            517.2755737304688,
+            250.99000549316406
+          ],
+          "page": 3
+        },
+        {
+          "text": "Provided that the Nigeria Revenue Service may issue guidelines for the valuation and reporting of\ndigital asset transactions.",
+          "bbox": [
+            78.0,
+            261.25,
+            517.2754516601562,
+            286.989990234375
+          ],
+          "page": 3
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 4,
+      "text": "PART IV - ADMINISTRATION\nSection 6. Nigeria Revenue Service\nThe Federal Inland Revenue Service (FIRS) is hereby replaced by the Nigeria Revenue Service\n(NRS) which shall be the primary tax authority responsible for the administration and collection of\ntaxes under this Act. The NRS shall:\n(a) assess, collect, and account for all federal taxes;\n(b) enforce compliance with tax laws;\n(c) maintain a central tax database;\n(d) coordinate with state revenue services.\nThe NRS shall operate under the supervision of the Joint Revenue Board established under the\nJoint Revenue Board Establishment Act 2024.\n",
+      "blocks": [
+        {
+          "text": "PART IV - ADMINISTRATION",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            321.0000305175781,
+            101.5260009765625
+          ],
+          "page": 4
+        },
+        {
+          "text": "Section 6. Nigeria Revenue Service",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            311.43597412109375,
+            148.29800415039062
+          ],
+          "page": 4
+        },
+        {
+          "text": "The Federal Inland Revenue Service (FIRS) is hereby replaced by the Nigeria Revenue Service\n(NRS) which shall be the primary tax authority responsible for the administration and collection of\ntaxes under this Act. The NRS shall:\n(a) assess, collect, and account for all federal taxes;\n(b) enforce compliance with tax laws;\n(c) maintain a central tax database;\n(d) coordinate with state revenue services.",
+          "bbox": [
+            78.0,
+            153.25,
+            517.2755126953125,
+            238.99000549316406
+          ],
+          "page": 4
+        },
+        {
+          "text": "The NRS shall operate under the supervision of the Joint Revenue Board established under the\nJoint Revenue Board Establishment Act 2024.",
+          "bbox": [
+            78.0,
+            249.25,
+            517.2755126953125,
+            274.989990234375
+          ],
+          "page": 4
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 5,
+      "text": "PART V - DIVIDENDS AND DISTRIBUTIONS\nSection 7. Treatment of Dividends\nDividends paid by a company shall be subject to withholding tax at the rate of 10%. However,\ndividends paid out of profits that have not been subjected to tax (untaxed profits) shall be treated as\nfollows:\n(a) the company shall first pay corporation tax on such profits at the prevailing rate of 30%;\n(b) after payment of corporation tax, the dividend withholding tax of 10% shall apply to the net\namount distributed;\n(c) the recipient of such dividends shall be entitled to a tax credit for the corporation tax paid by the\ncompany.\nDividends paid from previously taxed profits shall only be subject to the 10% withholding tax without\nfurther corporation tax liability.\n",
+      "blocks": [
+        {
+          "text": "PART V - DIVIDENDS AND DISTRIBUTIONS",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            447.01800537109375,
+            101.5260009765625
+          ],
+          "page": 5
+        },
+        {
+          "text": "Section 7. Treatment of Dividends",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            303.6100158691406,
+            148.29800415039062
+          ],
+          "page": 5
+        },
+        {
+          "text": "Dividends paid by a company shall be subject to withholding tax at the rate of 10%. However,\ndividends paid out of profits that have not been subjected to tax (untaxed profits) shall be treated as\nfollows:\n(a) the company shall first pay corporation tax on such profits at the prevailing rate of 30%;\n(b) after payment of corporation tax, the dividend withholding tax of 10% shall apply to the net\namount distributed;\n(c) the recipient of such dividends shall be entitled to a tax credit for the corporation tax paid by the\ncompany.",
+          "bbox": [
+            78.0,
+            153.25,
+            517.2755737304688,
+            250.99000549316406
+          ],
+          "page": 5
+        },
+        {
+          "text": "Dividends paid from previously taxed profits shall only be subject to the 10% withholding tax without\nfurther corporation tax liability.",
+          "bbox": [
+            78.0,
+            261.25,
+            517.2755126953125,
+            286.989990234375
+          ],
+          "page": 5
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 6,
+      "text": "PART VI - VALUE ADDED TAX\nSection 8. VAT Rate and Application\nValue Added Tax (VAT) shall be charged at the rate of 7.5% on the supply of all goods and services\nin Nigeria, except those specifically exempted under Schedule 2 of this Act.\nThe following persons shall register for VAT and charge VAT on their supplies:\n(a) any person whose annual turnover exceeds I25,000,000;\n(b) any person who imports goods or services into Nigeria;\n(c) any person who makes taxable supplies regardless of turnover, at their option.\nSection 9. VAT Registration for Freelancers\nFreelancers and independent contractors need to charge VAT under the 2026 Nigerian tax law if\nthey meet the following conditions:\n(a) their annual turnover from freelance services exceeds I25,000,000;\n(b) they provide services that are not exempt under Schedule 2;\n(c) they invoice clients registered in Nigeria.\nFreelancers with turnover below I25,000,000 are not required to register for VAT unless they\nvoluntarily choose to do so. Provided that freelancers providing exempt services (such as medical,\neducational, or charitable services) are not required to charge VAT regardless of turnover.\n",
+      "blocks": [
+        {
+          "text": "PART VI - VALUE ADDED TAX",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            336.01202392578125,
+            101.5260009765625
+          ],
+          "page": 6
+        },
+        {
+          "text": "Section 8. VAT Rate and Application",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            319.16400146484375,
+            148.29800415039062
+          ],
+          "page": 6
+        },
+        {
+          "text": "Value Added Tax (VAT) shall be charged at the rate of 7.5% on the supply of all goods and services\nin Nigeria, except those specifically exempted under Schedule 2 of this Act.",
+          "bbox": [
+            78.0,
+            153.25,
+            517.2755126953125,
+            178.99000549316406
+          ],
+          "page": 6
+        },
+        {
+          "text": "The following persons shall register for VAT and charge VAT on their supplies:\n(a) any person whose annual turnover exceeds I25,000,000;\n(b) any person who imports goods or services into Nigeria;\n(c) any person who makes taxable supplies regardless of turnover, at their option.",
+          "bbox": [
+            78.0,
+            189.25,
+            438.70989990234375,
+            238.99000549316406
+          ],
+          "page": 6
+        },
+        {
+          "text": "Section 9. VAT Registration for Freelancers",
+          "bbox": [
+            78.0,
+            261.0199890136719,
+            366.63800048828125,
+            280.2980041503906
+          ],
+          "page": 6
+        },
+        {
+          "text": "Freelancers and independent contractors need to charge VAT under the 2026 Nigerian tax law if\nthey meet the following conditions:\n(a) their annual turnover from freelance services exceeds I25,000,000;\n(b) they provide services that are not exempt under Schedule 2;\n(c) they invoice clients registered in Nigeria.",
+          "bbox": [
+            78.0,
+            285.2499694824219,
+            517.275634765625,
+            346.9899597167969
+          ],
+          "page": 6
+        },
+        {
+          "text": "Freelancers with turnover below I25,000,000 are not required to register for VAT unless they\nvoluntarily choose to do so. Provided that freelancers providing exempt services (such as medical,\neducational, or charitable services) are not required to charge VAT regardless of turnover.",
+          "bbox": [
+            78.0,
+            357.2499694824219,
+            517.2754516601562,
+            394.9899597167969
+          ],
+          "page": 6
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 7,
+      "text": "PART VII - TAX RATES\nSection 10. Corporation Tax Rate\nCorporation tax shall be charged at the rate of 30% on the taxable income of companies. Provided\nthat small companies with turnover not exceeding I25,000,000 shall pay tax at the rate of 20% on\ntheir taxable income.\nSection 11. Personal Income Tax Rates\nPersonal income tax shall be charged at the following graduated rates:\n(a) first I300,000 of taxable income: 7%\n(b) next I300,000: 11%\n(c) next I500,000: 15%\n(d) next I500,000: 19%\n(e) next I1,600,000: 21%\n(f) above I3,200,000: 24%\n",
+      "blocks": [
+        {
+          "text": "PART VII - TAX RATES",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            272.0220031738281,
+            101.5260009765625
+          ],
+          "page": 7
+        },
+        {
+          "text": "Section 10. Corporation Tax Rate",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            298.16400146484375,
+            148.29800415039062
+          ],
+          "page": 7
+        },
+        {
+          "text": "Corporation tax shall be charged at the rate of 30% on the taxable income of companies. Provided\nthat small companies with turnover not exceeding I25,000,000 shall pay tax at the rate of 20% on\ntheir taxable income.",
+          "bbox": [
+            78.0,
+            153.25,
+            517.2755737304688,
+            190.99000549316406
+          ],
+          "page": 7
+        },
+        {
+          "text": "Section 11. Personal Income Tax Rates",
+          "bbox": [
+            78.0,
+            213.02000427246094,
+            337.8819885253906,
+            232.29800415039062
+          ],
+          "page": 7
+        },
+        {
+          "text": "Personal income tax shall be charged at the following graduated rates:\n(a) first I300,000 of taxable income: 7%\n(b) next I300,000: 11%\n(c) next I500,000: 15%\n(d) next I500,000: 19%\n(e) next I1,600,000: 21%\n(f) above I3,200,000: 24%",
+          "bbox": [
+            78.0,
+            237.25,
+            389.8199462890625,
+            322.989990234375
+          ],
+          "page": 7
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    }
+  ]
+}

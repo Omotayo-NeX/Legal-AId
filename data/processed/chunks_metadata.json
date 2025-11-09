@@ -1,0 +1,369 @@
+{
+  "timestamp": "2025-11-05T21:25:10.808553",
+  "timezone": "Africa/Lagos",
+  "chunk_count": 78,
+  "chunk_size": 800,
+  "chunk_overlap": 200,
+  "validation_report": {
+    "total_chunks": 78,
+    "valid_chunks": 29,
+    "invalid_chunks": 49,
+    "issues": [
+      {
+        "chunk_index": 18,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 19,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 20,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 21,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 22,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 23,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 23,
+        "issue": "Text too short",
+        "length": 64
+      },
+      {
+        "chunk_index": 35,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 36,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 37,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 38,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 39,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 40,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 41,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 42,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 43,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 44,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 45,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 46,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 47,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 48,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 49,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 50,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 51,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 52,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 53,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 54,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 55,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 56,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 57,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 58,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 59,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 60,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 61,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 62,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 63,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 64,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 65,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 66,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 67,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 68,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 69,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 70,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 71,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 72,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 73,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 74,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 75,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 76,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      },
+      {
+        "chunk_index": 77,
+        "issue": "Missing required fields",
+        "fields": [
+          "section_number"
+        ]
+      }
+    ]
+  },
+  "statistics": {
+    "with_definitions": 8,
+    "with_rates": 15,
+    "with_dates": 6,
+    "with_amounts": 0,
+    "with_uncertainties": 40
+  }
+}

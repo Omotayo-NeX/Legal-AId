@@ -1,0 +1,574 @@
+{
+  "source_file": "/Users/mac/Desktop/Legal AId/data/raw/personal_income_tax_reforms_2025.pdf",
+  "filename": "personal_income_tax_reforms_2025.pdf",
+  "parse_timestamp": "2025-11-05T20:26:23.507179",
+  "timezone": "Africa/Lagos",
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "(anonymous)",
+    "author": "(anonymous)",
+    "subject": "(unspecified)",
+    "keywords": "",
+    "creator": "(unspecified)",
+    "producer": "ReportLab PDF Library - www.reportlab.com",
+    "creationDate": "D:20251105201325+01'00'",
+    "modDate": "D:20251105201325+01'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "page_count": 5,
+  "toc": [],
+  "sections": [],
+  "definitions": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "REFORMS OF THE PERSONAL INCOME TAX REGIME BRING\nIMPORTANT CHANGES\nNigeria Tax Act, 2025\nThe president of Nigeria signed into law the Nigeria Tax Act, 2025 (NTA) on 26 June 2025. The\nNTA repeals certain existing tax laws, including the Personal Income Tax Act (PITA) and\nconsolidates them into a single, unified legislation. It also introduces key reforms to Nigeria's\npersonal income tax regime, providing clearer rules on how income is determined, how individuals\nare assessed, taxed, and expected to comply.\nThe NTA will become effective from January 2026.\nWHY THIS MATTERS\nKey changes in the NTA for individuals and employers include a new definition of tax resident and\nnon-resident, changes to personal reliefs, revision of tax rates and the respective income bands,\namong others. The key changes, while aimed at reducing the tax burden of low-income earners,\ncould also result in higher taxes for higher-income earners, which may include individuals on\ninternational assignments.\nThe revised residence rules under the NTA could mean that assignees in Nigeria qualify as tax\nresidents where it is deemed they have a permanent home in the country for the purpose of their\nassignment. This would result in their worldwide income being taxable in Nigeria rather than just\ntheir Nigerian-sourced income. In addition, the increased tax rates, revised income bands, and the\nremoval of the Consolidated Relief Allowance (as discussed below) will raise the effective tax rate\nfor employees (from about 18 percent to 25 percent), creating higher costs for employers in respect\nof tax-equalised employees.\nFurthermore, trailing income linked to Nigerian employment is now expressly taxable even after an\nindividual's exit – in this regard, both employers and employees need to review processes to foster\naccurate tracking and compliance.\nOnce the NTA becomes effective, the changes affecting individuals may impact international\nassignment cost projections, hypothetical tax calculations, and payroll withholding processes.\nAccordingly, employers would need to re-assess their assignment cost projections, adjust payroll\nsystems, and consider updating their tax planning strategy where assignments to and from Nigeria\nare concerned.\nCONTEXT\nThe NTA represents one of the most significant tax reforms in Nigeria in over a decade. This reform\nis aimed at enhancing revenue generation, simplifying compliance procedures, and addressing\nregional disparities in tax administration. Three complementary pieces of legislation: Nigerian Tax\nAdministration Act, the Nigerian Revenue Service Act, and the Joint Revenue Board Establishment\nAct were also enacted to streamline tax administration in Nigeria.\nThe last major reform to Nigeria's personal income tax regime was in 2011 (effective from 2012),\nwith minor adjustments introduced through the Finance Acts between 2019 and 2023. Prior to now,\nneither the tax rates nor many of the rules governing individual taxation have been revised.\n",
+      "blocks": [
+        {
+          "text": "REFORMS OF THE PERSONAL INCOME TAX REGIME BRING\nIMPORTANT CHANGES",
+          "bbox": [
+            94.23179626464844,
+            77.0199966430664,
+            501.0438232421875,
+            108.29800415039062
+          ],
+          "page": 1
+        },
+        {
+          "text": "Nigeria Tax Act, 2025",
+          "bbox": [
+            230.33279418945312,
+            131.02000427246094,
+            364.9427795410156,
+            149.9759979248047
+          ],
+          "page": 1
+        },
+        {
+          "text": "The president of Nigeria signed into law the Nigeria Tax Act, 2025 (NTA) on 26 June 2025. The\nNTA repeals certain existing tax laws, including the Personal Income Tax Act (PITA) and\nconsolidates them into a single, unified legislation. It also introduces key reforms to Nigeria's\npersonal income tax regime, providing clearer rules on how income is determined, how individuals\nare assessed, taxed, and expected to comply.",
+          "bbox": [
+            78.0,
+            197.25,
+            517.2755737304688,
+            258.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "The NTA will become effective from January 2026.",
+          "bbox": [
+            78.0,
+            269.29998779296875,
+            315.8599548339844,
+            283.07000732421875
+          ],
+          "page": 1
+        },
+        {
+          "text": "WHY THIS MATTERS",
+          "bbox": [
+            78.0,
+            304.739990234375,
+            258.0,
+            329.5260009765625
+          ],
+          "page": 1
+        },
+        {
+          "text": "Key changes in the NTA for individuals and employers include a new definition of tax resident and\nnon-resident, changes to personal reliefs, revision of tax rates and the respective income bands,\namong others. The key changes, while aimed at reducing the tax burden of low-income earners,\ncould also result in higher taxes for higher-income earners, which may include individuals on\ninternational assignments.",
+          "bbox": [
+            78.0,
+            345.2499694824219,
+            517.2755737304688,
+            406.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "The revised residence rules under the NTA could mean that assignees in Nigeria qualify as tax\nresidents where it is deemed they have a permanent home in the country for the purpose of their\nassignment. This would result in their worldwide income being taxable in Nigeria rather than just\ntheir Nigerian-sourced income. In addition, the increased tax rates, revised income bands, and the\nremoval of the Consolidated Relief Allowance (as discussed below) will raise the effective tax rate\nfor employees (from about 18 percent to 25 percent), creating higher costs for employers in respect\nof tax-equalised employees.",
+          "bbox": [
+            78.0,
+            417.2499694824219,
+            517.2755126953125,
+            502.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "Furthermore, trailing income linked to Nigerian employment is now expressly taxable even after an\nindividual's exit – in this regard, both employers and employees need to review processes to foster\naccurate tracking and compliance.",
+          "bbox": [
+            78.0,
+            513.25,
+            517.2755737304688,
+            550.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "Once the NTA becomes effective, the changes affecting individuals may impact international\nassignment cost projections, hypothetical tax calculations, and payroll withholding processes.\nAccordingly, employers would need to re-assess their assignment cost projections, adjust payroll\nsystems, and consider updating their tax planning strategy where assignments to and from Nigeria\nare concerned.",
+          "bbox": [
+            78.0,
+            561.25,
+            517.2755126953125,
+            622.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "CONTEXT",
+          "bbox": [
+            78.0,
+            644.739990234375,
+            164.00401306152344,
+            669.5260009765625
+          ],
+          "page": 1
+        },
+        {
+          "text": "The NTA represents one of the most significant tax reforms in Nigeria in over a decade. This reform\nis aimed at enhancing revenue generation, simplifying compliance procedures, and addressing\nregional disparities in tax administration. Three complementary pieces of legislation: Nigerian Tax\nAdministration Act, the Nigerian Revenue Service Act, and the Joint Revenue Board Establishment\nAct were also enacted to streamline tax administration in Nigeria.",
+          "bbox": [
+            78.0,
+            685.25,
+            517.2755126953125,
+            746.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "The last major reform to Nigeria's personal income tax regime was in 2011 (effective from 2012),\nwith minor adjustments introduced through the Finance Acts between 2019 and 2023. Prior to now,\nneither the tax rates nor many of the rules governing individual taxation have been revised.",
+          "bbox": [
+            78.0,
+            757.25,
+            517.2755126953125,
+            794.989990234375
+          ],
+          "page": 1
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 2,
+      "text": "",
+      "blocks": [],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 3,
+      "text": "KEY HIGHLIGHTS\nDefinition of Resident and Non-Resident Individual\nUnder the current law, there is no clear definition of a resident or non-resident person. However, the\nNTA has now introduced clear definitions of a resident individual to include a person who in any\nyear:\n• is domiciled in Nigeria;\n• has a permanent place for his domestic use;\n• has substantial economic and immediate family ties in Nigeria; or\n• sojourns in Nigeria for a period up to or more than 183 days in a 12-month period, inclusive of\nannual leave or temporary absence.\nA non-resident individual is defined as a person who does not satisfy any of the conditions\nmentioned above.\nResidents Taxable on Worldwide Income\nAlthough this is not a new rule, the NTA has introduced explicit provisions confirming that Nigerian\nresidents are taxable on their worldwide income regardless of where it arises or whether it is\nbrought into Nigeria. In contrast, non-resident individuals are taxable on only Nigeria-sourced\nincome.\nIndividuals on international assignment who qualify as Nigerian tax resident would be taxable on\ntheir worldwide income.\nTax Rules for Employment Income in Nigeria\nUnder the NTA, employment income remains taxable in Nigeria where the employee is a Nigerian\ntax resident or his duties of employment are partly or wholly performed in Nigeria, subject to certain\nconditions. However, these revised rules do not appear to capture employment income earned by\nremote workers who perform all the duties of their employment outside of Nigeria.\nTax Exemption for Non-Resident Tech Employees\nEmployment income of non-resident employees of start-ups or companies engaged in\ntechnology-driven services or creative arts are exempted from income tax provided their\nemployment income is taxable in their country of tax residence.\n",
+      "blocks": [
+        {
+          "text": "KEY HIGHLIGHTS",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            231.01800537109375,
+            101.5260009765625
+          ],
+          "page": 3
+        },
+        {
+          "text": "Definition of Resident and Non-Resident Individual",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            415.5959167480469,
+            148.29800415039062
+          ],
+          "page": 3
+        },
+        {
+          "text": "Under the current law, there is no clear definition of a resident or non-resident person. However, the\nNTA has now introduced clear definitions of a resident individual to include a person who in any\nyear:",
+          "bbox": [
+            78.0,
+            153.25,
+            517.2754516601562,
+            190.99000549316406
+          ],
+          "page": 3
+        },
+        {
+          "text": "• is domiciled in Nigeria;",
+          "bbox": [
+            78.0,
+            201.25,
+            184.3000030517578,
+            214.99000549316406
+          ],
+          "page": 3
+        },
+        {
+          "text": "• has a permanent place for his domestic use;",
+          "bbox": [
+            78.0,
+            223.25,
+            280.47998046875,
+            236.99000549316406
+          ],
+          "page": 3
+        },
+        {
+          "text": "• has substantial economic and immediate family ties in Nigeria; or",
+          "bbox": [
+            78.0,
+            245.25,
+            371.5999450683594,
+            258.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• sojourns in Nigeria for a period up to or more than 183 days in a 12-month period, inclusive of\nannual leave or temporary absence.",
+          "bbox": [
+            78.0,
+            267.25,
+            497.79986572265625,
+            292.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "A non-resident individual is defined as a person who does not satisfy any of the conditions\nmentioned above.",
+          "bbox": [
+            78.0,
+            303.25,
+            517.2755737304688,
+            328.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "Residents Taxable on Worldwide Income",
+          "bbox": [
+            78.0,
+            355.01995849609375,
+            349.5160217285156,
+            374.2979736328125
+          ],
+          "page": 3
+        },
+        {
+          "text": "Although this is not a new rule, the NTA has introduced explicit provisions confirming that Nigerian\nresidents are taxable on their worldwide income regardless of where it arises or whether it is\nbrought into Nigeria. In contrast, non-resident individuals are taxable on only Nigeria-sourced\nincome.",
+          "bbox": [
+            78.0,
+            379.2499694824219,
+            517.2755126953125,
+            428.9899597167969
+          ],
+          "page": 3
+        },
+        {
+          "text": "Individuals on international assignment who qualify as Nigerian tax resident would be taxable on\ntheir worldwide income.",
+          "bbox": [
+            78.0,
+            435.2499694824219,
+            517.2755126953125,
+            460.9899597167969
+          ],
+          "page": 3
+        },
+        {
+          "text": "Tax Rules for Employment Income in Nigeria",
+          "bbox": [
+            78.0,
+            487.01995849609375,
+            375.1919860839844,
+            506.2979736328125
+          ],
+          "page": 3
+        },
+        {
+          "text": "Under the NTA, employment income remains taxable in Nigeria where the employee is a Nigerian\ntax resident or his duties of employment are partly or wholly performed in Nigeria, subject to certain\nconditions. However, these revised rules do not appear to capture employment income earned by\nremote workers who perform all the duties of their employment outside of Nigeria.",
+          "bbox": [
+            78.0,
+            511.25,
+            517.2754516601562,
+            560.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "Tax Exemption for Non-Resident Tech Employees",
+          "bbox": [
+            78.0,
+            587.02001953125,
+            409.4079895019531,
+            606.2979736328125
+          ],
+          "page": 3
+        },
+        {
+          "text": "Employment income of non-resident employees of start-ups or companies engaged in\ntechnology-driven services or creative arts are exempted from income tax provided their\nemployment income is taxable in their country of tax residence.",
+          "bbox": [
+            78.0,
+            611.25,
+            517.2754516601562,
+            648.989990234375
+          ],
+          "page": 3
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 4,
+      "text": "Revised Income Bands and Tax Rates\nThe NTA introduces a more progressive personal income tax regime which features revised income\ntax rates and income bands for individuals. See the table below. In addition, the personal income\ntax and capital gains tax regimes have been merged, meaning that capital gains are now subject to\nthe applicable income tax rates below, and the former flat 10-percent Capital Gains Tax (CGT) rate\nwill no longer apply.\nS/N\nIncome Bands\nRate\n1\nI0 – I800,000\n0%\n2\nI800,001 – I3,000,000\n15%\n3\nI3,000,001 – I12,000,000\n18%\n4\nI12,000,001 – I25,000,000\n21%\n5\nI25,000,001 – I50,000,000\n23%\n6\nOver I50,000,000\n25%\nSource: KPMG in Nigeria\nRent Allowance to Replace Consolidated Relief Allowance (CRA)\nThe NTA eliminates the Consolidated Relief Allowance (CRA) and introduces the rent relief of 20\npercent of annual rent paid, capped at I500,000. To claim this relief, individuals will be required to\ndeclare their annual rent and provide supporting information as may be required by the relevant tax\nauthorities. Homeowners and others who do not pay rent are not eligible, leaving their only personal\nrelief limited to the first I800,000 of income under the revised tax bands.\nFurther implementation guidelines are expected from the tax authorities.\nTaxation of Trailing Income\nThe NTA clarifies the timing of income recognition for one-off or deferred payments such as\nbonuses, commissions, allowances, or terminal benefits. Unlike regular salary, which accrues\nday-to-day, these payments are deemed taxable on the actual date of payment or, if made after\ncessation of employment, on the last day of the employment. These provisions provide clearer rules\nfor the taxation of income that arises after or outside normal employment periods.\n",
+      "blocks": [
+        {
+          "text": "Revised Income Bands and Tax Rates",
+          "bbox": [
+            78.0,
+            77.0199966430664,
+            330.083984375,
+            96.29800415039062
+          ],
+          "page": 4
+        },
+        {
+          "text": "The NTA introduces a more progressive personal income tax regime which features revised income\ntax rates and income bands for individuals. See the table below. In addition, the personal income\ntax and capital gains tax regimes have been merged, meaning that capital gains are now subject to\nthe applicable income tax rates below, and the former flat 10-percent Capital Gains Tax (CGT) rate\nwill no longer apply.",
+          "bbox": [
+            78.0,
+            113.25,
+            517.2755126953125,
+            174.99000549316406
+          ],
+          "page": 4
+        },
+        {
+          "text": "S/N\nIncome Bands\nRate",
+          "bbox": [
+            122.63580322265625,
+            188.16000366210938,
+            465.6397705078125,
+            204.6840057373047
+          ],
+          "page": 4
+        },
+        {
+          "text": "1\nI0 – I800,000\n0%",
+          "bbox": [
+            129.85780334472656,
+            215.25,
+            459.86279296875,
+            228.99000549316406
+          ],
+          "page": 4
+        },
+        {
+          "text": "2\nI800,001 – I3,000,000\n15%",
+          "bbox": [
+            129.85780334472656,
+            233.25,
+            462.642822265625,
+            246.99000549316406
+          ],
+          "page": 4
+        },
+        {
+          "text": "3\nI3,000,001 – I12,000,000\n18%",
+          "bbox": [
+            129.85780334472656,
+            251.25,
+            462.642822265625,
+            264.989990234375
+          ],
+          "page": 4
+        },
+        {
+          "text": "4\nI12,000,001 – I25,000,000\n21%",
+          "bbox": [
+            129.85780334472656,
+            269.25,
+            462.642822265625,
+            282.989990234375
+          ],
+          "page": 4
+        },
+        {
+          "text": "5\nI25,000,001 – I50,000,000\n23%",
+          "bbox": [
+            129.85780334472656,
+            287.25,
+            462.642822265625,
+            300.989990234375
+          ],
+          "page": 4
+        },
+        {
+          "text": "6\nOver I50,000,000\n25%",
+          "bbox": [
+            129.85780334472656,
+            305.25,
+            462.642822265625,
+            318.989990234375
+          ],
+          "page": 4
+        },
+        {
+          "text": "Source: KPMG in Nigeria",
+          "bbox": [
+            78.0,
+            334.2999572753906,
+            189.6999969482422,
+            347.8399658203125
+          ],
+          "page": 4
+        },
+        {
+          "text": "Rent Allowance to Replace Consolidated Relief Allowance (CRA)",
+          "bbox": [
+            78.0,
+            382.01995849609375,
+            508.19189453125,
+            401.2979736328125
+          ],
+          "page": 4
+        },
+        {
+          "text": "The NTA eliminates the Consolidated Relief Allowance (CRA) and introduces the rent relief of 20\npercent of annual rent paid, capped at I500,000. To claim this relief, individuals will be required to\ndeclare their annual rent and provide supporting information as may be required by the relevant tax\nauthorities. Homeowners and others who do not pay rent are not eligible, leaving their only personal\nrelief limited to the first I800,000 of income under the revised tax bands.",
+          "bbox": [
+            78.0,
+            406.2499694824219,
+            517.2755126953125,
+            467.9899597167969
+          ],
+          "page": 4
+        },
+        {
+          "text": "Further implementation guidelines are expected from the tax authorities.",
+          "bbox": [
+            78.0,
+            474.2499694824219,
+            396.4699401855469,
+            487.9899597167969
+          ],
+          "page": 4
+        },
+        {
+          "text": "Taxation of Trailing Income",
+          "bbox": [
+            78.0,
+            514.02001953125,
+            260.0419921875,
+            533.2979736328125
+          ],
+          "page": 4
+        },
+        {
+          "text": "The NTA clarifies the timing of income recognition for one-off or deferred payments such as\nbonuses, commissions, allowances, or terminal benefits. Unlike regular salary, which accrues\nday-to-day, these payments are deemed taxable on the actual date of payment or, if made after\ncessation of employment, on the last day of the employment. These provisions provide clearer rules\nfor the taxation of income that arises after or outside normal employment periods.",
+          "bbox": [
+            78.0,
+            538.25,
+            517.2755126953125,
+            599.989990234375
+          ],
+          "page": 4
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 5,
+      "text": "KPMG INSIGHTS - STEPS TO CONSIDER\nIn preparation for the implementation date of January 2026, individuals and employers may wish to\nconsider the following:\n• Process updates by employers: Employers and their service providers may wish to update\npayroll systems, processes, and compliance tools to reflect the revised income bands, tax rates,\nand personal relief framework under the NTA.\n• Assessing personal impact: Individual taxpayers – this includes international assignees subject\nto Nigerian tax law – may wish to consider how the NTA would impact their finances, explore tax\nplanning opportunities, and seek guidance from professionals to fully understand and prepare for\nthe implementation of the NTA.\n• Educate staff and stakeholders: Employers may wish to educate staff and other stakeholders\nabout the impending changes to employees on international assignments to foster proper planning.\nWHAT'S NEXT\nThe NTA is not yet in force. Given the scale of the reforms, the government has deliberately\nprovided a transition period of over three months to allow stakeholders sufficient time to prepare for\nadoption ahead of the implementation date, with the aim of minimising potential disruptions.\nFurther guidelines are expected from the tax authorities ahead of the 1 January 2026\nimplementation date.\nIf companies, their assignees, and/or their programme managers have any questions or concerns\nabout the NTA, its application and potential impacts, and appropriate next steps, they should\nconsult with their qualified tax professional or a member of the GMS tax team with KPMG in\nNigeria.\n",
+      "blocks": [
+        {
+          "text": "KPMG INSIGHTS - STEPS TO CONSIDER",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            427.0559997558594,
+            101.5260009765625
+          ],
+          "page": 5
+        },
+        {
+          "text": "In preparation for the implementation date of January 2026, individuals and employers may wish to\nconsider the following:",
+          "bbox": [
+            78.0,
+            117.25,
+            517.2754516601562,
+            142.99000549316406
+          ],
+          "page": 5
+        },
+        {
+          "text": "• Process updates by employers: Employers and their service providers may wish to update\npayroll systems, processes, and compliance tools to reflect the revised income bands, tax rates,\nand personal relief framework under the NTA.",
+          "bbox": [
+            78.0,
+            159.25,
+            502.05987548828125,
+            196.99000549316406
+          ],
+          "page": 5
+        },
+        {
+          "text": "• Assessing personal impact: Individual taxpayers – this includes international assignees subject\nto Nigerian tax law – may wish to consider how the NTA would impact their finances, explore tax\nplanning opportunities, and seek guidance from professionals to fully understand and prepare for\nthe implementation of the NTA.",
+          "bbox": [
+            78.0,
+            211.25,
+            513.89990234375,
+            260.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "• Educate staff and stakeholders: Employers may wish to educate staff and other stakeholders\nabout the impending changes to employees on international assignments to foster proper planning.",
+          "bbox": [
+            78.0,
+            275.25,
+            515.4498901367188,
+            300.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "WHAT'S NEXT",
+          "bbox": [
+            78.0,
+            324.7399597167969,
+            201.28199768066406,
+            349.5259704589844
+          ],
+          "page": 5
+        },
+        {
+          "text": "The NTA is not yet in force. Given the scale of the reforms, the government has deliberately\nprovided a transition period of over three months to allow stakeholders sufficient time to prepare for\nadoption ahead of the implementation date, with the aim of minimising potential disruptions.",
+          "bbox": [
+            78.0,
+            365.2499694824219,
+            517.2755126953125,
+            402.9899597167969
+          ],
+          "page": 5
+        },
+        {
+          "text": "Further guidelines are expected from the tax authorities ahead of the 1 January 2026\nimplementation date.",
+          "bbox": [
+            78.0,
+            413.2499694824219,
+            517.2755126953125,
+            438.9899597167969
+          ],
+          "page": 5
+        },
+        {
+          "text": "If companies, their assignees, and/or their programme managers have any questions or concerns\nabout the NTA, its application and potential impacts, and appropriate next steps, they should\nconsult with their qualified tax professional or a member of the GMS tax team with KPMG in\nNigeria.",
+          "bbox": [
+            78.0,
+            449.2499694824219,
+            517.275634765625,
+            498.9899597167969
+          ],
+          "page": 5
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    }
+  ]
+}

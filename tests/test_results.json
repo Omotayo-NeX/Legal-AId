@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-11-04T16:47:10.358000",
+  "timezone": "Africa/Lagos",
+  "total_tests": 8,
+  "successful": 0,
+  "failed": 8,
+  "results": [
+    {
+      "test_id": "commencement_date",
+      "question": "What is the commencement date?",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    },
+    {
+      "test_id": "taxable_income_companies",
+      "question": "Define taxable income for companies.",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    },
+    {
+      "test_id": "taxable_income_individuals",
+      "question": "Define taxable income for individuals.",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    },
+    {
+      "test_id": "digital_assets",
+      "question": "Are digital or virtual assets covered?",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    },
+    {
+      "test_id": "firs_replacement",
+      "question": "Who replaces FIRS in the 2026 regime?",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    },
+    {
+      "test_id": "dividend_treatment",
+      "question": "What is the treatment of dividends paid out of untaxed profits?",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    },
+    {
+      "test_id": "vat_rate",
+      "question": "What is the VAT rate?",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    },
+    {
+      "test_id": "freelancer_vat",
+      "question": "Do freelancers need to charge VAT under 2026 Nigerian tax law?",
+      "status": "error",
+      "error": "Collection expecting embedding with dimension of 1536, got 384"
+    }
+  ]
+}
