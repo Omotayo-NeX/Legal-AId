@@ -13,7 +13,7 @@ export default function SplashScreen() {
       if (isAuthenticated) {
         router.replace('/(tabs)/home');
       } else {
-        router.replace('/(auth)/welcome');
+        router.replace('/landing');
       }
     }
   }, [isLoading, isAuthenticated]);
