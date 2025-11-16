@@ -2,17 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "src": "web-landing/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/web-landing/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/web-landing/index.html"
     }
   ]
 }
