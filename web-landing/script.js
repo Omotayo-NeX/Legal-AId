@@ -88,3 +88,77 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// Supabase Configuration
+const SUPABASE_URL = "https://YOUR_PROJECT_ID.supabase.co";
+const SUPABASE_ANON_KEY = "YOUR_PUBLIC_ANON_KEY";
+const TABLE_NAME = "waitlist";
+
+// Waitlist Form Submission
+document.addEventListener('DOMContentLoaded', () => {
+    const waitlistForm = document.getElementById('waitlistForm');
+    const formMessage = document.getElementById('formMessage');
+
+    if (waitlistForm) {
+        waitlistForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Get form values
+            const formData = new FormData(waitlistForm);
+
+            // Collect checked legal areas
+            const legalAreasCheckboxes = waitlistForm.querySelectorAll('input[name="legalAreas"]:checked');
+            const legalAreas = Array.from(legalAreasCheckboxes).map(cb => cb.value).join(', ');
+
+            // Prepare data for Supabase
+            const data = {
+                full_name: formData.get('fullName'),
+                email: formData.get('email'),
+                phone: formData.get('phone') || null,
+                country: formData.get('country') || null,
+                user_type: formData.get('userType'),
+                legal_areas: legalAreas || null,
+                referral_source: formData.get('referralSource'),
+                beta_access: formData.get('betaAccess')
+            };
+
+            try {
+                // Send to Supabase
+                const response = await fetch(`${SUPABASE_URL}/rest/v1/${TABLE_NAME}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'apikey': SUPABASE_ANON_KEY,
+                        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+                        'Prefer': 'return=minimal'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    // Success
+                    formMessage.textContent = 'Thank you! You are now on the Legal AI.D waitlist.';
+                    formMessage.className = 'form-message success';
+                    waitlistForm.reset();
+
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        formMessage.className = 'form-message';
+                    }, 5000);
+                } else {
+                    // Error
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                // Show error message
+                formMessage.textContent = 'Something went wrong. Please try again.';
+                formMessage.className = 'form-message error';
+
+                // Hide error message after 5 seconds
+                setTimeout(() => {
+                    formMessage.className = 'form-message';
+                }, 5000);
+            }
+        });
+    }
+});
