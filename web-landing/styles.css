@@ -85,6 +85,76 @@ body {
     box-shadow: 0 4px 12px rgba(26, 170, 102, 0.3);
 }
 
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+    gap: 6px;
+}
+
+.hamburger span {
+    width: 28px;
+    height: 3px;
+    background: var(--secondary);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(8px, -8px);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.mobile-menu.active {
+    max-height: 400px;
+}
+
+.mobile-menu a {
+    padding: 16px 20px;
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    border-bottom: 1px solid var(--gray-light);
+    transition: background 0.3s;
+}
+
+.mobile-menu a:hover {
+    background: var(--gray-light);
+    color: var(--primary);
+}
+
+.mobile-menu a:last-child {
+    border-bottom: none;
+}
+
 /* Hero Section */
 .hero {
     background: var(--secondary);
@@ -486,6 +556,24 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .header .container {
+        position: relative;
+    }
+}
+
 @media (max-width: 640px) {
     .hero-title {
         font-size: 32px;
@@ -502,10 +590,6 @@ body {
     .btn-large, .btn-outline {
         padding: 12px 24px;
         font-size: 16px;
-    }
-
-    .nav-links a:not(.btn-primary) {
-        display: none;
     }
 
     .download-buttons {
