@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal AI.d - Nigerian Tax Law Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --error-color: #ef4444;
+            --background: #f8fafc;
+            --surface: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+            background: var(--background);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: var(--surface);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 12px;
+            background: var(--success-color);
+            color: white;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: white;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .search-section {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        #queryInput {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        #queryInput:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: var(--secondary-color);
+        }
+
+        .btn:disabled {
+            background: var(--text-secondary);
+            cursor: not-allowed;
+        }
+
+        .example-queries {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .example-chip {
+            padding: 8px 15px;
+            background: var(--background);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .example-chip:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .results-section {
+            display: none;
+        }
+
+        .results-section.active {
+            display: block;
+        }
+
+        .answer-card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .answer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .answer-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .copy-btn {
+            padding: 8px 16px;
+            background: var(--background);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .copy-btn:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .answer-content {
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        .answer-content h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 20px 0 10px 0;
+            color: var(--text-primary);
+        }
+
+        .answer-content h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 18px 0 10px 0;
+            color: var(--text-primary);
+        }
+
+        .answer-content h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 16px 0 8px 0;
+            color: var(--text-primary);
+        }
+
+        .answer-content p {
+            margin: 10px 0;
+        }
+
+        .answer-content strong {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .answer-content ul {
+            margin: 10px 0 10px 20px;
+            list-style-type: disc;
+        }
+
+        .answer-content li {
+            margin: 5px 0;
+        }
+
+        .sources-card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .sources-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .source-item {
+            padding: 15px;
+            background: var(--background);
+            border-left: 4px solid var(--primary-color);
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        .source-document {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .source-details {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            border: 3px solid var(--border-color);
+            border-top: 3px solid var(--primary-color);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: #fee2e2;
+            border-left: 4px solid var(--error-color);
+            padding: 15px;
+            border-radius: 6px;
+            color: #991b1b;
+            margin-top: 15px;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            font-size: 14px;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border-color);
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div>
+                <h1>⚖️ Legal AI.d</h1>
+                <p class="subtitle">Nigerian Tax Reform Acts 2025-2026 • AI-Powered Search</p>
+            </div>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span id="statusText">Online</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="search-section">
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="queryInput"
+                    placeholder="Ask about Nigerian tax law... e.g., What is the VAT rate?"
+                    onkeypress="if(event.key === 'Enter') searchRAG()"
+                >
+                <button class="btn" onclick="searchRAG()" id="searchBtn">
+                    🔍 Search
+                </button>
+            </div>
+
+            <div class="example-queries">
+                <span style="font-size: 14px; color: var(--text-secondary); margin-right: 10px;">Try:</span>
+                <span class="example-chip" onclick="setQuery('What is the VAT rate in Nigeria?')">VAT Rate</span>
+                <span class="example-chip" onclick="setQuery('What is the commencement date?')">Commencement Date</span>
+                <span class="example-chip" onclick="setQuery('Do freelancers need to register for VAT?')">Freelancer VAT</span>
+                <span class="example-chip" onclick="setQuery('What are the tax relief provisions?')">Tax Relief</span>
+            </div>
+        </div>
+
+        <div id="loadingSection" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Searching Nigerian Tax Acts...</p>
+        </div>
+
+        <div id="resultsSection" class="results-section">
+            <div class="answer-card">
+                <div class="answer-header">
+                    <h2 class="answer-title">📖 Answer</h2>
+                    <button class="copy-btn" onclick="copyAnswer()">📋 Copy Answer</button>
+                </div>
+                <div id="answerContent" class="answer-content"></div>
+                <div class="stats-bar">
+                    <span>⏱️ Response time: <strong id="responseTime">-</strong></span>
+                    <span>📚 Sources: <strong id="sourceCount">-</strong></span>
+                    <span>💰 Tokens: <strong id="tokenCount">-</strong></span>
+                </div>
+            </div>
+
+            <div class="sources-card">
+                <h2 class="sources-title">📚 Source Documents</h2>
+                <div id="sourcesContent"></div>
+            </div>
+        </div>
+
+        <div id="errorSection" style="display: none;">
+            <div class="error-message" id="errorMessage"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = window.location.origin;
+        let startTime;
+
+        // Check API health on load
+        async function checkHealth() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/health`);
+                const data = await response.json();
+                const statusBadge = document.querySelector('.status-badge');
+                const statusText = document.getElementById('statusText');
+
+                if (data.status === 'healthy' && data.rag_initialized) {
+                    statusBadge.style.background = 'var(--success-color)';
+                    statusText.textContent = 'Online';
+                } else {
+                    statusBadge.style.background = 'var(--warning-color)';
+                    statusText.textContent = 'Initializing';
+                }
+            } catch (error) {
+                const statusBadge = document.querySelector('.status-badge');
+                const statusText = document.getElementById('statusText');
+                statusBadge.style.background = 'var(--error-color)';
+                statusText.textContent = 'Offline';
+            }
+        }
+
+        function setQuery(query) {
+            document.getElementById('queryInput').value = query;
+            searchRAG();
+        }
+
+        async function searchRAG() {
+            const query = document.getElementById('queryInput').value.trim();
+
+            if (!query) {
+                alert('Please enter a question');
+                return;
+            }
+
+            // Show loading
+            document.getElementById('loadingSection').style.display = 'block';
+            document.getElementById('resultsSection').classList.remove('active');
+            document.getElementById('errorSection').style.display = 'none';
+            document.getElementById('searchBtn').disabled = true;
+
+            startTime = Date.now();
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: query,
+                        conversation_history: []
+                    })
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.detail || 'Request failed');
+                }
+
+                const data = await response.json();
+                displayResults(data);
+
+            } catch (error) {
+                showError(error.message);
+            } finally {
+                document.getElementById('loadingSection').style.display = 'none';
+                document.getElementById('searchBtn').disabled = false;
+            }
+        }
+
+        function formatMarkdown(text) {
+            // Escape HTML first
+            let formatted = text
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+
+            // Headers - must be at start of line
+            formatted = formatted
+                .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+                .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+                .replace(/^# (.+)$/gm, '<h1>$1</h1>');
+
+            // Bold text
+            formatted = formatted.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+            // Bullet points
+            formatted = formatted.replace(/^- (.+)$/gm, '<li>$1</li>');
+            formatted = formatted.replace(/(<li>[\s\S]+?<\/li>)/g, function(match) {
+                return '<ul>' + match + '</ul>';
+            });
+
+            // Paragraphs
+            formatted = formatted
+                .split('\n\n')
+                .map(para => para.trim())
+                .filter(para => para)
+                .map(para => '<p>' + para.replace(/\n/g, '<br>') + '</p>')
+                .join('\n');
+
+            return formatted;
+        }
+
+        function displayResults(data) {
+            const endTime = Date.now();
+            const responseTime = ((endTime - startTime) / 1000).toFixed(2);
+
+            // Display answer with formatted markdown
+            const answerElement = document.getElementById('answerContent');
+            answerElement.innerHTML = formatMarkdown(data.answer);
+
+            // Display stats
+            document.getElementById('responseTime').textContent = `${responseTime}s`;
+            document.getElementById('sourceCount').textContent = data.sources.length;
+            document.getElementById('tokenCount').textContent =
+                data.metadata?.tokens_used?.total || '-';
+
+            // Display sources
+            const sourcesHTML = data.sources.map((source, index) => `
+                <div class="source-item">
+                    <div class="source-document">${index + 1}. ${source.document}</div>
+                    <div class="source-details">
+                        ${source.section ? `Section ${source.section}` : ''}
+                        ${source.title && source.title !== '(anonymous)' ? ` - ${source.title}` : ''}
+                        ${source.pages ? ` • Pages ${source.pages}` : ''}
+                    </div>
+                </div>
+            `).join('');
+
+            document.getElementById('sourcesContent').innerHTML = sourcesHTML;
+            document.getElementById('resultsSection').classList.add('active');
+        }
+
+        function showError(message) {
+            document.getElementById('errorMessage').textContent = `Error: ${message}`;
+            document.getElementById('errorSection').style.display = 'block';
+        }
+
+        function copyAnswer() {
+            const answer = document.getElementById('answerContent').innerText;
+            navigator.clipboard.writeText(answer).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                const originalText = btn.textContent;
+                btn.textContent = '✅ Copied!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+
+        // Check health on load
+        checkHealth();
+        setInterval(checkHealth, 30000); // Check every 30 seconds
+    </script>
+</body>
+</html>

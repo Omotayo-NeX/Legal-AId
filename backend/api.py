@@ -14,8 +14,13 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import uvicorn
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 
 # Load environment variables
 from dotenv import load_dotenv
@@ -30,12 +35,19 @@ except ImportError as e:
     print("Make sure you're running from the correct directory")
     sys.exit(1)
 
+# Initialize rate limiter
+limiter = Limiter(key_func=get_remote_address)
+
 # Initialize FastAPI app
 app = FastAPI(
     title="Legal AI.d - Nigerian Tax RAG API",
     description="RAG-powered API for Nigerian Tax Reform Acts 2025-2026",
     version="1.0.0"
 )
+
+# Add rate limiter to app
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # CORS middleware for React Native
 app.add_middleware(
@@ -48,6 +60,11 @@ app.add_middleware(
 
 # Global RAG pipeline instance (initialized once)
 rag_pipeline = None
+
+# Mount static files for frontends
+frontend_path = Path(__file__).parent.parent / "frontend"
+if frontend_path.exists():
+    app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
 
 # Request/Response models
 class ChatMessage(BaseModel):
@@ -88,14 +105,40 @@ async def startup_event():
         print(f"❌ Error initializing RAG pipeline: {e}")
         print("API will run but RAG features will be disabled")
 
-@app.get("/", response_model=HealthResponse)
-async def root():
+@app.get("/", include_in_schema=False)
+async def root_redirect():
+    """Redirect to simple frontend."""
+    frontend_path = Path(__file__).parent.parent / "frontend" / "simple" / "index.html"
+    if frontend_path.exists():
+        return FileResponse(frontend_path)
+    return {"message": "Welcome to Legal AI.d RAG API", "docs": "/docs"}
+
+@app.get("/api", response_model=HealthResponse)
+async def api_root():
     """Health check endpoint."""
     return {
         "status": "online",
         "rag_initialized": rag_pipeline is not None,
         "timestamp": datetime.now().isoformat()
     }
+
+@app.get("/simple", include_in_schema=False)
+async def simple_frontend():
+    """Serve simple HTML frontend."""
+    frontend_path = Path(__file__).parent.parent / "frontend" / "simple" / "index.html"
+    return FileResponse(frontend_path)
+
+@app.get("/react", include_in_schema=False)
+async def react_frontend():
+    """Serve React frontend."""
+    frontend_path = Path(__file__).parent.parent / "frontend" / "react" / "index.html"
+    return FileResponse(frontend_path)
+
+@app.get("/search", include_in_schema=False)
+async def web_enhanced_frontend():
+    """Serve enhanced web frontend."""
+    frontend_path = Path(__file__).parent.parent / "frontend" / "web-enhanced" / "search.html"
+    return FileResponse(frontend_path)
 
 @app.get("/health", response_model=HealthResponse)
 async def health_check():
@@ -132,7 +175,8 @@ def is_tax_related_query(message: str) -> bool:
     return any(keyword in message_lower for keyword in tax_keywords)
 
 @app.post("/chat", response_model=ChatResponse)
-async def chat(request: ChatRequest):
+@limiter.limit("10/minute")
+async def chat(request: Request, chat_request: ChatRequest):
     """
     Main chat endpoint with RAG integration.
 
@@ -149,7 +193,7 @@ async def chat(request: ChatRequest):
                 detail="RAG service not available. Please try again later."
             )
 
-        message = request.message.strip()
+        message = chat_request.message.strip()
 
         if not message:
             raise HTTPException(
@@ -207,7 +251,8 @@ async def chat(request: ChatRequest):
         )
 
 @app.post("/search")
-async def search_documents(query: str, top_k: int = 5):
+@limiter.limit("20/minute")
+async def search_documents(request: Request, query: str, top_k: int = 5):
     """
     Search endpoint - returns relevant chunks without generating an answer.
     Useful for displaying source documents.
