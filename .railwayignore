@@ -1,0 +1,54 @@
+# Node modules and frontend
+node_modules/
+.expo/
+.expo-shared/
+
+# iOS
+ios/
+*.xcworkspace
+*.xcodeproj
+
+# Android
+android/
+*.gradle
+*.apk
+
+# Development
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+tests/
+test_*.py
+
+# Documentation
+*.md
+!README.md
+
+# Scripts (not needed for runtime)
+scripts/
+
+# Web landing page
+web-landing/
+
+# Large files
+*.pdf
+data/raw/*.pdf
+
+# Keep processed data and embeddings
+!data/processed/
+!data/embeddings/

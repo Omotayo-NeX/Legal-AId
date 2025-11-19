@@ -53,3 +53,17 @@ coverage/
 *.pem
 *.key
 .vercel
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+
+# IMPORTANT: DO NOT ignore these - needed for Railway deployment!
+# data/processed/
+# data/embeddings/
+# These folders contain the RAG indices and must be committed
