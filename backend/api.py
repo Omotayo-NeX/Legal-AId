@@ -305,12 +305,15 @@ async def not_found_handler(request: Request, exc):
     }
 
 if __name__ == "__main__":
+    import os
+    port = int(os.getenv("PORT", 8000))
+
     print("=" * 70)
     print("Legal AI.d - Nigerian Tax RAG API")
     print("=" * 70)
     print("\nStarting server...")
-    print("API will be available at: http://localhost:8000")
-    print("Docs available at: http://localhost:8000/docs")
+    print(f"API will be available at: http://localhost:{port}")
+    print(f"Docs available at: http://localhost:{port}/docs")
     print("\nEndpoints:")
     print("  POST /chat       - Main chat endpoint with RAG")
     print("  POST /search     - Search documents")
@@ -321,6 +324,6 @@ if __name__ == "__main__":
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=8000,
+        port=port,
         log_level="info"
     )
