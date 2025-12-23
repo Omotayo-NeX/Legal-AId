@@ -13,7 +13,7 @@ import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import * as FileSystem from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
-import { colors, typography } from '../src/theme';
+import { colors, typography, shadows } from '../src/theme';
 import { useDocumentStore } from '../src/store/documentStore';
 
 export default function DocumentPreviewScreen() {
@@ -267,7 +267,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
     borderRadius: 12,
     padding: 24,
-    ...colors.shadows?.md,
+    ...shadows.md,
     marginBottom: 20,
   },
   documentText: {
@@ -275,7 +275,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
     lineHeight: 20,
     color: colors.text.primary,
-    whiteSpace: 'pre-wrap',
   },
   footer: {
     backgroundColor: colors.white,

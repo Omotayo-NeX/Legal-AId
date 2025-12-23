@@ -13,7 +13,7 @@ import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import * as Print from 'expo-print';
 import * as Sharing from 'expo-sharing';
-import { colors, typography } from '../src/theme';
+import { colors, typography, shadows } from '../src/theme';
 import { NigeriaTaxService, TaxResult } from '../src/services/nigeria-tax.service';
 
 export default function TaxCalculatorScreen() {
@@ -752,7 +752,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     padding: 20,
     marginBottom: 16,
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   cardTitle: {
     ...typography.h4,
@@ -961,7 +961,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 8,
     marginBottom: 16,
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   exportButtonText: {
     ...typography.h4,

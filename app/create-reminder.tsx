@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { colors, typography } from '../src/theme';
+import { colors, typography, shadows } from '../src/theme';
 import { RemindersService, CreateReminderInput } from '../src/services/reminders.service';
 
 export default function CreateReminderScreen() {
@@ -416,7 +416,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   submitButtonDisabled: {
     opacity: 0.6,

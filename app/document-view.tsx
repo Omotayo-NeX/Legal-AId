@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { colors, typography } from '../src/theme';
+import { colors, typography, shadows } from '../src/theme';
 
 export default function DocumentViewScreen() {
   const router = useRouter();
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     padding: 40,
     alignItems: 'center',
     justifyContent: 'center',
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   placeholderTitle: {
     ...typography.h3,

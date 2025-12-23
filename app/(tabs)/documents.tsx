@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { colors, typography } from '../../src/theme';
+import { colors, typography, shadows } from '../../src/theme';
 
 export default function DocumentsScreen() {
   const router = useRouter();
@@ -256,7 +256,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
     borderRadius: 16,
     padding: 20,
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   templateIcon: {
     width: 56,

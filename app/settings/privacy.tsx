@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   Switch,
   Alert,
+  Linking,
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -186,7 +187,10 @@ export default function PrivacySecurityScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Legal</Text>
 
-          <TouchableOpacity style={styles.settingItem}>
+          <TouchableOpacity
+            style={styles.settingItem}
+            onPress={() => Linking.openURL('https://omotayo-nex.github.io/Legal-AId/privacy-policy.html')}
+          >
             <View style={styles.settingInfo}>
               <Text style={styles.settingTitle}>Privacy Policy</Text>
               <Text style={styles.settingDescription}>
@@ -200,7 +204,10 @@ export default function PrivacySecurityScreen() {
             />
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.settingItem}>
+          <TouchableOpacity
+            style={styles.settingItem}
+            onPress={() => Linking.openURL('https://omotayo-nex.github.io/Legal-AId/terms-of-service.html')}
+          >
             <View style={styles.settingInfo}>
               <Text style={styles.settingTitle}>Terms of Service</Text>
               <Text style={styles.settingDescription}>

@@ -26,6 +26,12 @@ export const typography = {
     lineHeight: 28,
   } as TextStyle,
 
+  h5: {
+    fontSize: 18,
+    fontWeight: '600',
+    lineHeight: 26,
+  } as TextStyle,
+
   // Body Text
   body1: {
     fontSize: 16,

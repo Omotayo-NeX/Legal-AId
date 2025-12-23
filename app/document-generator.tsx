@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { colors, typography } from '../src/theme';
+import { colors, typography, shadows } from '../src/theme';
 import { getTemplateById, DocumentTemplate, TemplateField } from '../src/templates';
 import { useDocumentStore } from '../src/store/documentStore';
 
@@ -106,7 +106,7 @@ export default function DocumentGeneratorScreen() {
               {field.required && <Text style={styles.required}> *</Text>}
             </Text>
             <TextInput
-              style={[styles.textArea, hasError && styles.inputError]}
+              style={[styles.textArea, hasError ? styles.inputError : undefined]}
               placeholder={field.placeholder}
               placeholderTextColor={colors.text.light}
               multiline
@@ -126,7 +126,7 @@ export default function DocumentGeneratorScreen() {
               {field.required && <Text style={styles.required}> *</Text>}
             </Text>
             <TextInput
-              style={[styles.input, hasError && styles.inputError]}
+              style={[styles.input, hasError ? styles.inputError : undefined]}
               placeholder={field.placeholder}
               placeholderTextColor={colors.text.light}
               keyboardType="numeric"
@@ -145,7 +145,7 @@ export default function DocumentGeneratorScreen() {
               {field.required && <Text style={styles.required}> *</Text>}
             </Text>
             <TextInput
-              style={[styles.input, hasError && styles.inputError]}
+              style={[styles.input, hasError ? styles.inputError : undefined]}
               placeholder="YYYY-MM-DD"
               placeholderTextColor={colors.text.light}
               value={formData[field.id]}
@@ -195,7 +195,7 @@ export default function DocumentGeneratorScreen() {
               {field.required && <Text style={styles.required}> *</Text>}
             </Text>
             <TextInput
-              style={[styles.input, hasError && styles.inputError]}
+              style={[styles.input, hasError ? styles.inputError : undefined]}
               placeholder={field.placeholder}
               placeholderTextColor={colors.text.light}
               value={formData[field.id]}
@@ -389,7 +389,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   generateButtonText: {
     ...typography.h4,

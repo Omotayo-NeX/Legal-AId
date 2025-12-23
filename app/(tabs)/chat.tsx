@@ -289,8 +289,8 @@ export default function ChatScreen() {
       {isLoading && (
         <View style={styles.typingIndicator}>
           <View style={styles.typingDot} />
-          <View style={[styles.typingDot, { animationDelay: '0.2s' }]} />
-          <View style={[styles.typingDot, { animationDelay: '0.4s' }]} />
+          <View style={styles.typingDot} />
+          <View style={styles.typingDot} />
         </View>
       )}
 

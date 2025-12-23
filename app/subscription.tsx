@@ -32,44 +32,31 @@ const SUBSCRIPTION_PLANS: SubscriptionPlan[] = [
     displayPrice: '₦0',
     period: 'forever',
     features: [
-      '5 AI consultations per month',
-      'Basic document templates',
+      'Unlimited AI legal consultations',
+      'Nigerian Tax Reform Acts 2025-2026 knowledge',
+      'All document templates',
       'Tax calculator access',
+      'Compliance reminders',
+      'Document generation',
       'Email support',
     ],
   },
-  {
-    id: 'premium',
-    name: 'Premium',
-    price: 499900, // ₦4,999 in kobo
-    displayPrice: '₦4,999',
-    period: 'per month',
-    features: [
-      'Unlimited AI consultations',
-      'All document templates',
-      'Priority document generation',
-      'Advanced tax planning tools',
-      'Priority email support',
-      'Export documents to PDF',
-    ],
-    recommended: true,
-  },
-  {
-    id: 'enterprise',
-    name: 'Enterprise',
-    price: 999900, // ₦9,999 in kobo
-    displayPrice: '₦9,999',
-    period: 'per month',
-    features: [
-      'Everything in Premium',
-      'Dedicated account manager',
-      '24/7 priority support',
-      'Custom document templates',
-      'API access',
-      'Team collaboration (up to 5 users)',
-      'Compliance audit reports',
-    ],
-  },
+  // Premium and Enterprise plans coming in v1.1
+  // {
+  //   id: 'premium',
+  //   name: 'Premium',
+  //   price: 499900, // ₦4,999 in kobo
+  //   displayPrice: '₦4,999',
+  //   period: 'per month',
+  //   features: [
+  //     'Everything in Free',
+  //     'Priority document generation',
+  //     'Advanced tax planning tools',
+  //     'Priority email support',
+  //     'Export documents to PDF',
+  //   ],
+  //   recommended: true,
+  // },
 ];
 
 export default function SubscriptionScreen() {
@@ -84,7 +71,7 @@ export default function SubscriptionScreen() {
     if (user && selectedPlan) {
       const updatedUser = {
         ...user,
-        subscription_tier: selectedPlan.id,
+        subscription_tier: selectedPlan.id as 'free' | 'basic' | 'premium',
       };
       setUser(updatedUser);
 

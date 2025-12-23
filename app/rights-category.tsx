@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { colors, typography } from '../src/theme';
+import { colors, typography, shadows } from '../src/theme';
 import { rightsCategories } from '../src/data/rights';
 
 export default function RightsCategoryScreen() {
@@ -229,7 +229,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     padding: 20,
     marginBottom: 24,
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   statItem: {
     flex: 1,
@@ -260,7 +260,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     marginBottom: 12,
     overflow: 'hidden',
-    ...colors.shadows?.sm,
+    ...shadows.sm,
   },
   rightHeader: {
     flexDirection: 'row',

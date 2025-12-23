@@ -12,7 +12,7 @@ import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { BlurView } from 'expo-blur';
 import { useAuthStore } from '../../src/store/authStore';
-import { colors, typography } from '../../src/theme';
+import { colors, typography, shadows } from '../../src/theme';
 import { RemindersService, Reminder } from '../../src/services/reminders.service';
 
 export default function HomeScreen() {
@@ -305,7 +305,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     padding: 20,
     alignItems: 'center',
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   iconContainer: {
     width: 56,

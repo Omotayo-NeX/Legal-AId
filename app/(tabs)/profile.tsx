@@ -36,9 +36,9 @@ export default function ProfileScreen() {
       id: 'subscription',
       icon: 'diamond-outline',
       title: 'Subscription',
-      subtitle: user?.subscription_tier === 'free' ? 'Free Plan' : 'Premium Plan',
+      subtitle: 'Free Plan - Premium Coming Soon!',
       onPress: () => router.push('/subscription'),
-      showBadge: user?.subscription_tier === 'free',
+      showBadge: false,
     },
     {
       id: 'reminders',

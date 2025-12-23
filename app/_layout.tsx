@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { StripeProvider } from '@stripe/stripe-react-native';
+// import { StripeProvider } from '@stripe/stripe-react-native'; // Disabled for v1.0 - Free tier only
 import { useAuthStore } from '../src/store/authStore';
 import { colors } from '../src/theme';
-import { STRIPE_CONFIG } from '../src/config/stripe.config';
+// import { STRIPE_CONFIG } from '../src/config/stripe.config'; // Disabled for v1.0
 
 export default function RootLayout() {
   const { initAuth } = useAuthStore();
@@ -14,10 +14,7 @@ export default function RootLayout() {
   }, []);
 
   return (
-    <StripeProvider
-      publishableKey={STRIPE_CONFIG.publishableKey}
-      merchantIdentifier={STRIPE_CONFIG.merchantIdentifier}
-    >
+    <>
       <StatusBar style="light" backgroundColor={colors.secondary} />
       <Stack
         screenOptions={{
@@ -42,6 +39,6 @@ export default function RootLayout() {
         <Stack.Screen name="tax-calculator" options={{ headerShown: false }} />
         <Stack.Screen name="subscription" options={{ headerShown: false }} />
       </Stack>
-    </StripeProvider>
+    </>
   );
 }

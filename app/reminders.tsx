@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { colors, typography } from '../src/theme';
+import { colors, typography, shadows } from '../src/theme';
 import { RemindersService, Reminder } from '../src/services/reminders.service';
 
 export default function RemindersScreen() {
@@ -433,7 +433,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     padding: 16,
     marginBottom: 16,
-    ...colors.shadows?.md,
+    ...shadows.md,
   },
   overdueCard: {
     borderLeftWidth: 4,

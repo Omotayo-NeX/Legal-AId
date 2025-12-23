@@ -19,7 +19,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
       },
-      default: {},
+      default: undefined,
     }),
   },
 });

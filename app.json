@@ -16,11 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.legalaid.app",
-      "merchantId": "merchant.com.legalaid.app",
-      "infoPlist": {
-        "NSFaceIDUsageDescription": "We need to use Face ID for secure payments"
-      }
+      "bundleIdentifier": "com.legalaid.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -42,14 +38,7 @@
           "color": "#1BAA66"
         }
       ],
-      "expo-font",
-      [
-        "@stripe/stripe-react-native",
-        {
-          "merchantIdentifier": "merchant.com.legalaid.app",
-          "enableGooglePay": true
-        }
-      ]
+      "expo-font"
     ]
   }
 }

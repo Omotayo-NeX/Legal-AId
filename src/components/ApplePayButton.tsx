@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
   Platform,
 } from 'react-native';
-import { useStripe, ApplePayButton as StripeApplePayButton } from '@stripe/stripe-react-native';
+import { useStripe } from '@stripe/stripe-react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, typography } from '../theme';
 import { STRIPE_CONFIG, STRIPE_API_URL } from '../config/stripe.config';
@@ -32,7 +32,8 @@ export function ApplePayButton({
   onCancel,
   disabled = false,
 }: ApplePayButtonProps) {
-  const { presentApplePay, confirmApplePayPayment } = useStripe();
+  const stripe = useStripe();
+  const { presentApplePay, confirmApplePayPayment } = stripe as any;
   const [isApplePaySupported, setIsApplePaySupported] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
 
@@ -192,7 +193,8 @@ export function NativeApplePayButton({
   onCancel,
   disabled = false,
 }: ApplePayButtonProps) {
-  const { confirmApplePayPayment } = useStripe();
+  const stripe = useStripe();
+  const { confirmApplePayPayment } = stripe as any;
   const [isProcessing, setIsProcessing] = useState(false);
 
   const createPaymentIntent = async () => {
@@ -267,14 +269,20 @@ export function NativeApplePayButton({
 
   return (
     <View style={styles.nativeButtonContainer}>
-      <StripeApplePayButton
+      <TouchableOpacity
         onPress={handleApplePay}
-        type="plain"
-        buttonStyle="black"
-        borderRadius={12}
-        style={styles.nativeButton}
+        style={[styles.button, (disabled || isProcessing) ? styles.buttonDisabled : undefined]}
         disabled={disabled || isProcessing}
-      />
+      >
+        {isProcessing ? (
+          <ActivityIndicator color={colors.white} />
+        ) : (
+          <>
+            <Ionicons name="logo-apple" size={24} color={colors.white} />
+            <Text style={styles.buttonText}>Pay with Apple Pay</Text>
+          </>
+        )}
+      </TouchableOpacity>
     </View>
   );
 }
