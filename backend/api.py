@@ -382,21 +382,6 @@ async def get_stats():
             "message": str(e)
         }
 
-# Error handlers
-@app.exception_handler(404)
-async def not_found_handler(request: Request, exc):
-    return {
-        "error": "Endpoint not found",
-        "path": request.url.path,
-        "available_endpoints": [
-            "/",
-            "/health",
-            "/chat",
-            "/search",
-            "/stats"
-        ]
-    }
-
 if __name__ == "__main__":
     import os
     port = int(os.getenv("PORT", 8000))
