@@ -66,6 +66,11 @@ frontend_path = Path(__file__).parent.parent / "frontend"
 if frontend_path.exists():
     app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
 
+# Mount web-landing directory for marketing page assets
+web_landing_path = Path(__file__).parent.parent / "web-landing"
+if web_landing_path.exists():
+    app.mount("/web-landing", StaticFiles(directory=str(web_landing_path), html=True), name="web-landing")
+
 # Request/Response models
 class ChatMessage(BaseModel):
     role: str
@@ -107,8 +112,8 @@ async def startup_event():
 
 @app.get("/", include_in_schema=False)
 async def root_redirect():
-    """Redirect to simple frontend."""
-    frontend_path = Path(__file__).parent.parent / "frontend" / "simple" / "index.html"
+    """Redirect to marketing landing page."""
+    frontend_path = Path(__file__).parent.parent / "web-landing" / "index.html"
     if frontend_path.exists():
         return FileResponse(frontend_path)
     return {"message": "Welcome to Legal AI.d RAG API", "docs": "/docs"}
@@ -139,6 +144,24 @@ async def web_enhanced_frontend():
     """Serve enhanced web frontend."""
     frontend_path = Path(__file__).parent.parent / "frontend" / "web-enhanced" / "search.html"
     return FileResponse(frontend_path)
+
+@app.get("/app.html", include_in_schema=False)
+async def app_page():
+    """Serve app tools page."""
+    app_path = Path(__file__).parent.parent / "web-landing" / "app.html"
+    return FileResponse(app_path)
+
+@app.get("/styles.css", include_in_schema=False)
+async def serve_styles():
+    """Serve CSS file."""
+    css_path = Path(__file__).parent.parent / "web-landing" / "styles.css"
+    return FileResponse(css_path, media_type="text/css")
+
+@app.get("/script.js", include_in_schema=False)
+async def serve_script():
+    """Serve JS file."""
+    js_path = Path(__file__).parent.parent / "web-landing" / "script.js"
+    return FileResponse(js_path, media_type="application/javascript")
 
 @app.get("/health", response_model=HealthResponse)
 async def health_check():
