@@ -113,6 +113,14 @@ async def root_redirect():
         return FileResponse(frontend_path)
     return {"message": "Welcome to Legal AI.d RAG API", "docs": "/docs"}
 
+@app.get("/index.html", include_in_schema=False)
+async def index_html():
+    """Serve index.html (same as root)."""
+    frontend_path = Path(__file__).parent.parent / "web-landing" / "index.html"
+    if frontend_path.exists():
+        return FileResponse(frontend_path)
+    return {"message": "Welcome to Legal AI.d RAG API", "docs": "/docs"}
+
 @app.get("/api", response_model=HealthResponse)
 async def api_root():
     """Health check endpoint."""
