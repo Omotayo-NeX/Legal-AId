@@ -154,6 +154,18 @@ async def app_page():
     app_path = Path(__file__).parent.parent / "web-landing" / "app.html"
     return FileResponse(app_path)
 
+@app.get("/privacy-policy.html", include_in_schema=False)
+async def privacy_policy():
+    """Serve privacy policy page."""
+    privacy_path = Path(__file__).parent.parent / "web-landing" / "privacy-policy.html"
+    return FileResponse(privacy_path)
+
+@app.get("/terms-of-service.html", include_in_schema=False)
+async def terms_of_service():
+    """Serve terms of service page."""
+    terms_path = Path(__file__).parent.parent / "web-landing" / "terms-of-service.html"
+    return FileResponse(terms_path)
+
 @app.get("/styles.css", include_in_schema=False)
 async def serve_styles():
     """Serve CSS file."""
