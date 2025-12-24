@@ -1313,6 +1313,17 @@
             const pageTitle = document.getElementById('pageTitle');
             const pageSubtitle = document.getElementById('pageSubtitle');
 
+            // Check email gate before accessing calculator
+            if (tab === 'calculator') {
+                const storedEmail = localStorage.getItem(EMAIL_GATE_KEY);
+                if (!storedEmail) {
+                    // Store that user wants calculator, show email modal
+                    window.pendingTabSwitch = 'calculator';
+                    showEmailModal();
+                    return; // Don't switch tabs yet
+                }
+            }
+
             tabs.forEach(t => t.classList.remove('active'));
 
             if (tab === 'search') {
@@ -1798,6 +1809,254 @@
             document.getElementById('rentPaid').value = '';
             document.getElementById('calcResults').style.display = 'none';
         }
+        // Email Gate Modal Functions
+        const EMAIL_GATE_KEY = 'legalaid_user_email';
+        // API_BASE_URL already declared at top of script
+
+        // Check if user has already provided email
+        function checkEmailGate() {
+            const storedEmail = localStorage.getItem(EMAIL_GATE_KEY);
+            if (!storedEmail) {
+                showEmailModal();
+            } else {
+                // Verify email with backend
+                verifyStoredEmail(storedEmail);
+            }
+        }
+
+        // Show email modal
+        function showEmailModal() {
+            document.getElementById('emailGateModal').style.display = 'flex';
+            document.getElementById('emailInput').focus();
+        }
+
+        // Hide email modal
+        function hideEmailModal() {
+            document.getElementById('emailGateModal').style.display = 'none';
+        }
+
+        // Validate email format
+        function isValidEmail(email) {
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return emailRegex.test(email);
+        }
+
+        // Submit email
+        async function submitEmail() {
+            const emailInput = document.getElementById('emailInput');
+            const email = emailInput.value.trim().toLowerCase();
+            const errorDiv = document.getElementById('emailError');
+            const submitBtn = document.getElementById('submitEmailBtn');
+
+            // Clear previous errors
+            errorDiv.textContent = '';
+            errorDiv.style.display = 'none';
+
+            // Validate email
+            if (!email) {
+                showEmailError('Please enter your email address');
+                return;
+            }
+
+            if (!isValidEmail(email)) {
+                showEmailError('Please enter a valid email address');
+                return;
+            }
+
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Verifying...';
+
+            try {
+                // Verify email with backend
+                const response = await fetch(`${API_BASE_URL}/api/verify-email`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email: email })
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.valid) {
+                    // Store email locally
+                    localStorage.setItem(EMAIL_GATE_KEY, email);
+
+                    // Hide modal
+                    hideEmailModal();
+
+                    // Show success message
+                    showSuccessMessage(`Welcome to Legal AI.d! You have ${data.queries_remaining_today || 20} queries remaining today.`);
+
+                    // Switch to pending tab if user was trying to access calculator
+                    if (window.pendingTabSwitch === 'calculator') {
+                        window.pendingTabSwitch = null;
+                        setTimeout(() => showTab('calculator'), 500);
+                    }
+                } else {
+                    showEmailError(data.message || 'Invalid email. Please try again.');
+                }
+            } catch (error) {
+                showEmailError('Connection error. Please try again.');
+                console.error('Email verification error:', error);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Continue';
+            }
+        }
+
+        // Verify stored email with backend
+        async function verifyStoredEmail(email) {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/verify-email`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email: email })
+                });
+
+                const data = await response.json();
+
+                if (!response.ok || !data.valid) {
+                    // Email no longer valid, show modal again
+                    localStorage.removeItem(EMAIL_GATE_KEY);
+                    showEmailModal();
+                }
+            } catch (error) {
+                console.error('Email verification error:', error);
+            }
+        }
+
+        // Show email error
+        function showEmailError(message) {
+            const errorDiv = document.getElementById('emailError');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        // Show success message
+        function showSuccessMessage(message) {
+            const successDiv = document.createElement('div');
+            successDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #10b981;
+                color: white;
+                padding: 15px 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                z-index: 10001;
+                animation: slideIn 0.3s ease;
+            `;
+            successDiv.textContent = message;
+            document.body.appendChild(successDiv);
+
+            setTimeout(() => {
+                successDiv.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => successDiv.remove(), 300);
+            }, 3000);
+        }
+
+        // Handle Enter key in email input
+        document.getElementById('emailInput')?.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                submitEmail();
+            }
+        });
+
+        // Check email gate on page load - required for both tabs
+        window.addEventListener('DOMContentLoaded', checkEmailGate);
+
+        // Get user email for API requests
+        function getUserEmail() {
+            return localStorage.getItem(EMAIL_GATE_KEY);
+        }
+
+        // Override fetch to include email in requests
+        const originalFetch = window.fetch;
+        window.fetch = function(url, options = {}) {
+            const email = getUserEmail();
+            if (email && url.includes('/api/')) {
+                options.headers = {
+                    ...options.headers,
+                    'X-User-Email': email
+                };
+            }
+            return originalFetch(url, options);
+        };
     </script>
+
+    <!-- Email Gate Modal -->
+    <div id="emailGateModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 10000; justify-content: center; align-items: center; backdrop-filter: blur(5px);">
+        <div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-radius: 16px; padding: 40px; max-width: 500px; width: 90%; box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3); border: 1px solid rgba(59, 130, 246, 0.2);">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <div style="font-size: 48px; margin-bottom: 15px;">⚖️</div>
+                <h2 style="font-size: 28px; font-weight: 800; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px;">Welcome to Legal AI.d</h2>
+                <p style="color: #94a3b8; font-size: 16px;">Enter your email to access our free tax calculator</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="your.email@example.com"
+                    style="width: 100%; padding: 15px 20px; border: 2px solid rgba(59, 130, 246, 0.3); border-radius: 8px; background: rgba(15, 23, 42, 0.5); color: #e2e8f0; font-size: 16px; outline: none; transition: border-color 0.3s;"
+                    onfocus="this.style.borderColor='#3b82f6'"
+                    onblur="this.style.borderColor='rgba(59, 130, 246, 0.3)'"
+                />
+                <div id="emailError" style="display: none; color: #ef4444; font-size: 14px; margin-top: 10px;"></div>
+            </div>
+
+            <div style="margin-bottom: 25px; padding: 15px; background: rgba(59, 130, 246, 0.1); border-radius: 8px; border-left: 3px solid #3b82f6;">
+                <div style="color: #94a3b8; font-size: 14px; line-height: 1.6;">
+                    <div style="margin-bottom: 8px;">✓ <strong style="color: #e2e8f0;">Free forever</strong> - No credit card required</div>
+                    <div style="margin-bottom: 8px;">✓ <strong style="color: #e2e8f0;">20 queries per day</strong> - 100 per month</div>
+                    <div>✓ <strong style="color: #e2e8f0;">No spam</strong> - Unsubscribe anytime</div>
+                </div>
+            </div>
+
+            <button
+                id="submitEmailBtn"
+                onclick="submitEmail()"
+                style="width: 100%; padding: 15px; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;"
+                onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 20px rgba(59, 130, 246, 0.4)'"
+                onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'"
+            >
+                Continue
+            </button>
+
+            <div style="text-align: center; margin-top: 20px; font-size: 13px; color: #64748b;">
+                By continuing, you agree to our
+                <a href="terms-of-service.html" style="color: #3b82f6; text-decoration: none;">Terms of Service</a> and
+                <a href="privacy-policy.html" style="color: #3b82f6; text-decoration: none;">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slideOut {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+        }
+    </style>
 </body>
 </html>

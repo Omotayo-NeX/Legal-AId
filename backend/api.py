@@ -26,6 +26,15 @@ from slowapi.errors import RateLimitExceeded
 from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent.parent / ".env.backend")
 
+# Import Supabase and email validation
+try:
+    from backend.supabase_client import get_supabase_manager
+    from backend.email_validator import validate_email, sanitize_email
+    SUPABASE_ENABLED = True
+except Exception as e:
+    print(f"Supabase not configured: {e}")
+    SUPABASE_ENABLED = False
+
 # Import RAG components
 try:
     from retriever import TaxActRetriever
@@ -88,6 +97,16 @@ class HealthResponse(BaseModel):
     status: str
     rag_initialized: bool
     timestamp: str
+
+class EmailVerifyRequest(BaseModel):
+    email: str
+
+class EmailVerifyResponse(BaseModel):
+    valid: bool
+    message: str
+    user_email: Optional[str] = None
+    queries_remaining_today: Optional[int] = None
+    queries_remaining_month: Optional[int] = None
 
 # Initialize RAG pipeline on startup
 @app.on_event("startup")
@@ -166,6 +185,30 @@ async def terms_of_service():
     terms_path = Path(__file__).parent.parent / "web-landing" / "terms-of-service.html"
     return FileResponse(terms_path)
 
+@app.get("/disclaimer.html", include_in_schema=False)
+async def disclaimer():
+    """Serve disclaimer page."""
+    disclaimer_path = Path(__file__).parent.parent / "web-landing" / "disclaimer.html"
+    return FileResponse(disclaimer_path)
+
+@app.get("/help-center.html", include_in_schema=False)
+async def help_center():
+    """Serve help center page."""
+    help_path = Path(__file__).parent.parent / "web-landing" / "help-center.html"
+    return FileResponse(help_path)
+
+@app.get("/contact-us.html", include_in_schema=False)
+async def contact_us():
+    """Serve contact us page."""
+    contact_path = Path(__file__).parent.parent / "web-landing" / "contact-us.html"
+    return FileResponse(contact_path)
+
+@app.get("/faq.html", include_in_schema=False)
+async def faq():
+    """Serve FAQ page."""
+    faq_path = Path(__file__).parent.parent / "web-landing" / "faq.html"
+    return FileResponse(faq_path)
+
 @app.get("/styles.css", include_in_schema=False)
 async def serve_styles():
     """Serve CSS file."""
@@ -242,6 +285,85 @@ def is_tax_related_query(message: str) -> bool:
     message_lower = message.lower()
     return any(keyword in message_lower for keyword in tax_keywords)
 
+@app.post("/api/verify-email", response_model=EmailVerifyResponse)
+async def verify_email(request: Request, email_request: EmailVerifyRequest):
+    """
+    Verify user email and check rate limits.
+
+    This endpoint:
+    1. Validates email format
+    2. Checks for disposable emails
+    3. Creates or gets user from Supabase
+    4. Checks rate limits
+    5. Returns remaining queries
+
+    Args:
+        request: FastAPI request object
+        email_request: Email verification request
+
+    Returns:
+        Email verification response with rate limit info
+    """
+    if not SUPABASE_ENABLED:
+        return {
+            "valid": True,
+            "message": "Email verification disabled (Supabase not configured)",
+            "user_email": email_request.email,
+            "queries_remaining_today": 20,
+            "queries_remaining_month": 100
+        }
+
+    try:
+        # Sanitize email
+        email = sanitize_email(email_request.email)
+
+        # Validate email
+        is_valid, validation_message = validate_email(email)
+        if not is_valid:
+            return {
+                "valid": False,
+                "message": validation_message
+            }
+
+        # Get Supabase manager
+        supabase = get_supabase_manager()
+
+        # Get client IP
+        client_ip = request.client.host if request.client else "unknown"
+
+        # Check rate limits
+        allowed, reason, user = await supabase.check_rate_limit(email, client_ip)
+
+        if not allowed:
+            return {
+                "valid": False,
+                "message": reason,
+                "user_email": email,
+                "queries_remaining_today": 0,
+                "queries_remaining_month": 0
+            }
+
+        # Calculate remaining queries
+        queries_today = user.get("query_count_today", 0)
+        queries_month = user.get("query_count_month", 0)
+        remaining_today = max(0, 20 - queries_today)
+        remaining_month = max(0, 100 - queries_month)
+
+        return {
+            "valid": True,
+            "message": "Email verified successfully",
+            "user_email": email,
+            "queries_remaining_today": remaining_today,
+            "queries_remaining_month": remaining_month
+        }
+
+    except Exception as e:
+        print(f"Error verifying email: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error verifying email: {str(e)}"
+        )
+
 @app.post("/chat", response_model=ChatResponse)
 @limiter.limit("10/minute")
 async def chat(request: Request, chat_request: ChatRequest):
@@ -249,12 +371,35 @@ async def chat(request: Request, chat_request: ChatRequest):
     Main chat endpoint with RAG integration.
 
     This endpoint:
-    1. Checks if the query is tax-related
-    2. If yes, uses RAG to retrieve relevant context
-    3. Returns answer with sources and citations
-    4. If no, returns a message directing to tax-related queries
+    1. Verifies user email and checks rate limits
+    2. Checks if the query is tax-related
+    3. If yes, uses RAG to retrieve relevant context
+    4. Returns answer with sources and citations
+    5. Increments user query count
     """
     try:
+        # Check for email in headers
+        user_email = request.headers.get("X-User-Email")
+
+        if not user_email and SUPABASE_ENABLED:
+            raise HTTPException(
+                status_code=401,
+                detail="Email required. Please provide your email to use this service."
+            )
+
+        # Verify email and check rate limits (if Supabase enabled)
+        if SUPABASE_ENABLED and user_email:
+            supabase = get_supabase_manager()
+            client_ip = request.client.host if request.client else "unknown"
+
+            allowed, reason, user = await supabase.check_rate_limit(user_email, client_ip)
+
+            if not allowed:
+                raise HTTPException(
+                    status_code=429,
+                    detail=reason
+                )
+
         if not rag_pipeline:
             raise HTTPException(
                 status_code=503,
@@ -295,8 +440,15 @@ async def chat(request: Request, chat_request: ChatRequest):
         # Use RAG pipeline to answer
         result = rag_pipeline.query(message, temperature=0.1)
 
+        # Increment usage count (if Supabase enabled)
+        if SUPABASE_ENABLED and user_email:
+            try:
+                await supabase.increment_usage(user_email)
+            except Exception as e:
+                print(f"Error incrementing usage: {e}")
+
         # Format response
-        return {
+        response = {
             "answer": result["answer"],
             "sources": result.get("source_list", []),
             "retrieved_chunks": result.get("retrieved_chunks", 0),
@@ -308,6 +460,8 @@ async def chat(request: Request, chat_request: ChatRequest):
                 "query_type": "tax_related"
             }
         }
+
+        return response
 
     except HTTPException:
         raise
