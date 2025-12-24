@@ -66,11 +66,6 @@ frontend_path = Path(__file__).parent.parent / "frontend"
 if frontend_path.exists():
     app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
 
-# Mount web-landing directory for marketing page assets
-web_landing_path = Path(__file__).parent.parent / "web-landing"
-if web_landing_path.exists():
-    app.mount("/web-landing", StaticFiles(directory=str(web_landing_path), html=True), name="web-landing")
-
 # Request/Response models
 class ChatMessage(BaseModel):
     role: str
@@ -162,6 +157,36 @@ async def serve_script():
     """Serve JS file."""
     js_path = Path(__file__).parent.parent / "web-landing" / "script.js"
     return FileResponse(js_path, media_type="application/javascript")
+
+@app.get("/logo/{file_path:path}", include_in_schema=False)
+async def serve_logo(file_path: str):
+    """Serve logo files."""
+    logo_file = Path(__file__).parent.parent / "web-landing" / "logo" / file_path
+    if logo_file.exists() and logo_file.is_file():
+        return FileResponse(logo_file)
+    raise HTTPException(status_code=404, detail="File not found")
+
+@app.get("/blog/{file_path:path}", include_in_schema=False)
+async def serve_blog(file_path: str):
+    """Serve blog files."""
+    blog_file = Path(__file__).parent.parent / "web-landing" / "blog" / file_path
+    if blog_file.exists() and blog_file.is_file():
+        return FileResponse(blog_file)
+    raise HTTPException(status_code=404, detail="File not found")
+
+@app.get("/blog-images/{file_path:path}", include_in_schema=False)
+async def serve_blog_images(file_path: str):
+    """Serve blog image files."""
+    image_file = Path(__file__).parent.parent / "web-landing" / "blog-images" / file_path
+    if image_file.exists() and image_file.is_file():
+        return FileResponse(image_file)
+    raise HTTPException(status_code=404, detail="File not found")
+
+@app.get("/hero.png", include_in_schema=False)
+async def serve_hero():
+    """Serve hero image."""
+    hero_path = Path(__file__).parent.parent / "web-landing" / "hero.png"
+    return FileResponse(hero_path)
 
 @app.get("/health", response_model=HealthResponse)
 async def health_check():
