@@ -750,6 +750,60 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            margin: 12px 0;
+        }
+
+        .increase-highlight {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .nochange-highlight {
+            background: rgba(148, 163, 184, 0.1);
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .increase-amount {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+        }
+
+        .savings-subtitle {
+            font-size: 14px;
+            color: #94a3b8;
+            margin: 8px 0;
+        }
+
+        .savings-label {
+            font-size: 16px;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-bottom: 4px;
+        }
+
+        .savings-percent {
+            font-size: 14px;
+            color: #cbd5e1;
+            margin-top: 8px;
+        }
+
+        .savings-helper {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid rgba(148, 163, 184, 0.2);
+            font-style: italic;
         }
 
         /* ===== EXPORT BUTTON ===== */
@@ -1793,13 +1847,29 @@
                     </div>
                 </div>
 
-                <!-- Savings Highlight -->
-                <div class="savings-highlight">
-                    <div class="savings-icon">💰</div>
+                <!-- Tax Difference Highlight -->
+                <div class="${savings > 0 ? 'savings-highlight' : savings < 0 ? 'increase-highlight' : 'nochange-highlight'}">
+                    <div class="savings-icon">${savings > 0 ? '💰' : savings < 0 ? '⚠️' : '➖'}</div>
                     <div class="savings-content">
-                        <div class="savings-label">Your Tax Savings with 2026 Law</div>
-                        <div class="savings-amount">${savings >= 0 ? '+' : ''}${formatCurrency(Math.abs(savings))}</div>
-                        <div class="savings-percent">${savings >= 0 ? 'You save' : 'You pay'} ${Math.abs(savingsPercent).toFixed(1)}% ${savings >= 0 ? 'less' : 'more'} annually</div>
+                        <div class="savings-label">
+                            ${savings > 0 ? 'Tax Savings Under 2026 Law' :
+                              savings < 0 ? 'Additional Tax Payable Under 2026 Law' :
+                              'No Change in Tax Under 2026 Law'}
+                        </div>
+                        <div class="savings-subtitle">
+                            ${savings > 0 ? 'You will pay less compared to 2025' :
+                              savings < 0 ? 'You will pay more compared to 2025' :
+                              'Your tax remains the same'}
+                        </div>
+                        <div class="savings-amount ${savings < 0 ? 'increase-amount' : ''}">${formatCurrency(Math.abs(savings))}</div>
+                        <div class="savings-percent">
+                            ${savings > 0 ? 'Annual tax savings' :
+                              savings < 0 ? 'Extra tax per year' :
+                              'No difference'}: ${Math.abs(savingsPercent).toFixed(1)}% ${savings > 0 ? 'reduction' : savings < 0 ? 'increase' : 'change'} in annual tax
+                        </div>
+                        <div class="savings-helper">
+                            This comparison shows the difference between your total annual tax under the 2025 and 2026 tax laws, based on the deductions applied.
+                        </div>
                     </div>
                 </div>
             `;
