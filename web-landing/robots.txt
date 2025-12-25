@@ -1,0 +1,13 @@
+# robots.txt for Legal AI.d
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://legal.nexconsultingltd.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin/private areas if any
+Disallow: /api/
+Disallow: /.well-known/
