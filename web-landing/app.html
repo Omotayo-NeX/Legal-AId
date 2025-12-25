@@ -986,6 +986,107 @@
             .calc-buttons {
                 flex-direction: column;
             }
+
+            /* Tax Comparison Mobile Optimization */
+            .comparison-container {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .comparison-column {
+                padding: 16px;
+            }
+
+            .comparison-column h3 {
+                font-size: 16px;
+                margin-bottom: 12px;
+            }
+
+            .result-item {
+                margin-bottom: 12px;
+            }
+
+            .result-label {
+                font-size: 12px;
+            }
+
+            .result-value {
+                font-size: 18px !important;
+            }
+
+            .result-value.highlight {
+                font-size: 22px !important;
+            }
+
+            /* Savings/Increase Highlight Mobile */
+            .savings-highlight,
+            .increase-highlight,
+            .nochange-highlight {
+                padding: 16px;
+                margin-top: 16px;
+            }
+
+            .savings-amount,
+            .increase-amount {
+                font-size: 24px !important;
+            }
+
+            .savings-label {
+                font-size: 14px;
+            }
+
+            .savings-subtitle {
+                font-size: 12px;
+            }
+
+            .savings-percent {
+                font-size: 12px;
+            }
+
+            .savings-helper {
+                font-size: 11px;
+                margin-top: 12px;
+                padding-top: 12px;
+            }
+
+            .savings-icon {
+                font-size: 24px;
+                margin-bottom: 8px;
+            }
+
+            /* Export Button Mobile */
+            .export-btn {
+                font-size: 12px;
+                padding: 8px 12px;
+            }
+
+            /* Calculator Form Mobile */
+            .calc-input,
+            .calc-select {
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            .calc-label {
+                font-size: 13px;
+            }
+
+            /* Comparison Header Mobile - make title and export button stack */
+            .calc-card > div[style*="display: flex"] {
+                flex-direction: column !important;
+                gap: 12px;
+                align-items: stretch !important;
+            }
+
+            .calc-card h2.calc-title {
+                text-align: center;
+                font-size: 16px !important;
+            }
+
+            .calc-card .export-btn {
+                width: 100%;
+                justify-content: center;
+            }
         }
     </style>
 
