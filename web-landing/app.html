@@ -1979,7 +1979,8 @@
         const originalFetch = window.fetch;
         window.fetch = function(url, options = {}) {
             const email = getUserEmail();
-            if (email && url.includes('/api/')) {
+            // Add email header to API calls and chat endpoint
+            if (email && (url.includes('/api/') || url.includes('/chat'))) {
                 options.headers = {
                     ...options.headers,
                     'X-User-Email': email
