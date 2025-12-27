@@ -1,0 +1,1344 @@
+{
+  "source_file": "/Users/mac/Desktop/legal-AId/data/raw/vat_small_business_changes_2026.pdf",
+  "filename": "vat_small_business_changes_2026.pdf",
+  "parse_timestamp": "2025-12-27T11:26:10.262638",
+  "timezone": "Africa/Lagos",
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "(anonymous)",
+    "author": "(anonymous)",
+    "subject": "(unspecified)",
+    "keywords": "",
+    "creator": "(unspecified)",
+    "producer": "ReportLab PDF Library - www.reportlab.com",
+    "creationDate": "D:20251227112218+01'00'",
+    "modDate": "D:20251227112218+01'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "page_count": 10,
+  "toc": [],
+  "sections": [],
+  "definitions": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "VALUE ADDED TAX (VAT) AND\nSMALL BUSINESS TAX CHANGES\nUNDER THE NIGERIA TAX ACT, 2025\nThe Nigeria Tax Act, 2025 introduces significant reforms to Value Added Tax (VAT) administration\nand provides unprecedented relief for small and medium-sized enterprises (SMEs). This document\noutlines the key changes, their practical implications, and compliance requirements for businesses\noperating in Nigeria from January 1, 2026.\nThese reforms are designed to reduce the tax burden on the majority of Nigerian businesses,\nsimplify compliance procedures, broaden the tax base through improved coverage of the digital\neconomy, and enhance revenue transparency across all tiers of government.\nVAT RATE: NO INCREASE\nContrary to speculation and misinformation that circulated in late 2025, the standard VAT rate\nremains unchanged at 7.5%. This rate was set by the Finance Act, 2020 and is retained under the\nNigeria Tax Act, 2025.\nThe Federal Government, through the Presidential Committee on Fiscal Policy and Tax Reforms,\nhas explicitly confirmed that there are no plans to increase VAT rates in the immediate or near term.\nThe focus of the reforms is on expanding the tax base and improving compliance, not on raising tax\nrates.\nAll taxable supplies of goods and services connected to Nigeria remain subject to the 7.5% VAT\nrate, unless specifically exempted or zero-rated as outlined in the sections below.\nEXPANDED VAT COVERAGE\nDigital Economy and Non-Resident Suppliers\nOne of the most significant changes under the Nigeria Tax Act, 2025 is the formal inclusion of\ndigital services and e-commerce transactions in the VAT net. Previously, many digital platforms and\nnon-resident service providers operated in a regulatory grey area, resulting in substantial revenue\nleakage.\nUnder the new law:\n• Non-resident suppliers of digital services, software, streaming content, online advertising, cloud\nservices, and other digital products consumed in Nigeria are now required to register for VAT and\nremit the tax to the Nigeria Revenue Service (NRS).\n• E-commerce platforms (both local and foreign) facilitating the sale of goods or services to\nNigerian customers must collect and remit VAT on behalf of sellers, where applicable.\n• Marketplace facilitators such as ride-hailing apps, food delivery platforms, and freelance\nmarketplaces are deemed to be making taxable supplies and must account for VAT on their\ncommissions and service fees.\nThis expansion aligns Nigeria with international best practices and ensures that foreign digital\nservice providers contribute fairly to Nigeria's revenue base, creating a level playing field for local\n",
+      "blocks": [
+        {
+          "text": "VALUE ADDED TAX (VAT) AND\nSMALL BUSINESS TAX CHANGES\nUNDER THE NIGERIA TAX ACT, 2025",
+          "bbox": [
+            173.95480346679688,
+            77.0199966430664,
+            421.3207702636719,
+            120.29800415039062
+          ],
+          "page": 1
+        },
+        {
+          "text": "The Nigeria Tax Act, 2025 introduces significant reforms to Value Added Tax (VAT) administration\nand provides unprecedented relief for small and medium-sized enterprises (SMEs). This document\noutlines the key changes, their practical implications, and compliance requirements for businesses\noperating in Nigeria from January 1, 2026.",
+          "bbox": [
+            78.0,
+            167.25,
+            517.2755126953125,
+            216.99000549316406
+          ],
+          "page": 1
+        },
+        {
+          "text": "These reforms are designed to reduce the tax burden on the majority of Nigerian businesses,\nsimplify compliance procedures, broaden the tax base through improved coverage of the digital\neconomy, and enhance revenue transparency across all tiers of government.",
+          "bbox": [
+            78.0,
+            227.25,
+            517.2755126953125,
+            264.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "VAT RATE: NO INCREASE",
+          "bbox": [
+            78.0,
+            286.739990234375,
+            304.0080261230469,
+            311.5260009765625
+          ],
+          "page": 1
+        },
+        {
+          "text": "Contrary to speculation and misinformation that circulated in late 2025, the standard VAT rate\nremains unchanged at 7.5%. This rate was set by the Finance Act, 2020 and is retained under the\nNigeria Tax Act, 2025.",
+          "bbox": [
+            78.0,
+            327.2499694824219,
+            517.2755737304688,
+            364.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "The Federal Government, through the Presidential Committee on Fiscal Policy and Tax Reforms,\nhas explicitly confirmed that there are no plans to increase VAT rates in the immediate or near term.\nThe focus of the reforms is on expanding the tax base and improving compliance, not on raising tax\nrates.",
+          "bbox": [
+            78.0,
+            375.2499694824219,
+            517.2755126953125,
+            424.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "All taxable supplies of goods and services connected to Nigeria remain subject to the 7.5% VAT\nrate, unless specifically exempted or zero-rated as outlined in the sections below.",
+          "bbox": [
+            78.0,
+            435.2499694824219,
+            517.2755737304688,
+            460.9899597167969
+          ],
+          "page": 1
+        },
+        {
+          "text": "EXPANDED VAT COVERAGE",
+          "bbox": [
+            78.0,
+            482.7399597167969,
+            327.0299987792969,
+            507.5259704589844
+          ],
+          "page": 1
+        },
+        {
+          "text": "Digital Economy and Non-Resident Suppliers",
+          "bbox": [
+            78.0,
+            535.02001953125,
+            379.0559997558594,
+            554.2979736328125
+          ],
+          "page": 1
+        },
+        {
+          "text": "One of the most significant changes under the Nigeria Tax Act, 2025 is the formal inclusion of\ndigital services and e-commerce transactions in the VAT net. Previously, many digital platforms and\nnon-resident service providers operated in a regulatory grey area, resulting in substantial revenue\nleakage.",
+          "bbox": [
+            78.0,
+            559.25,
+            517.2755737304688,
+            608.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "Under the new law:",
+          "bbox": [
+            78.0,
+            619.25,
+            163.58999633789062,
+            632.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "• Non-resident suppliers of digital services, software, streaming content, online advertising, cloud\nservices, and other digital products consumed in Nigeria are now required to register for VAT and\nremit the tax to the Nigeria Revenue Service (NRS).",
+          "bbox": [
+            78.0,
+            645.25,
+            513.8799438476562,
+            682.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "• E-commerce platforms (both local and foreign) facilitating the sale of goods or services to\nNigerian customers must collect and remit VAT on behalf of sellers, where applicable.",
+          "bbox": [
+            78.0,
+            695.25,
+            486.1098937988281,
+            720.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "• Marketplace facilitators such as ride-hailing apps, food delivery platforms, and freelance\nmarketplaces are deemed to be making taxable supplies and must account for VAT on their\ncommissions and service fees.",
+          "bbox": [
+            78.0,
+            733.25,
+            482.6298828125,
+            770.989990234375
+          ],
+          "page": 1
+        },
+        {
+          "text": "This expansion aligns Nigeria with international best practices and ensures that foreign digital\nservice providers contribute fairly to Nigeria's revenue base, creating a level playing field for local",
+          "bbox": [
+            78.0,
+            789.25,
+            517.2754516601562,
+            814.989990234375
+          ],
+          "page": 1
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 2,
+      "text": "businesses.\nInput VAT Recovery\nA major improvement under the Nigeria Tax Act, 2025 is the expanded scope for input VAT\nrecovery. Previously, businesses faced significant challenges in claiming credit for VAT paid on\ncapital expenditure and input services, leading to 'cascading' tax burdens.\nThe new law provides that:\n• Registered businesses may claim input VAT on all purchases related to their taxable supplies,\nincluding services and fixed assets (capital goods).\n• Input VAT is fully recoverable for businesses making taxable (standard-rated or zero-rated)\nsupplies.\n• Businesses making both taxable and exempt supplies must apportion input VAT and may only\nrecover the portion attributable to taxable activities.\n• The time limit for claiming input VAT is six years from the date of the transaction, provided proper\ndocumentation (tax invoices) is maintained.\nThis reform significantly reduces the effective tax burden on businesses, particularly in\ncapital-intensive sectors such as manufacturing, infrastructure, and telecommunications.\n",
+      "blocks": [
+        {
+          "text": "businesses.",
+          "bbox": [
+            78.0,
+            77.25,
+            130.8000030517578,
+            90.98999786376953
+          ],
+          "page": 2
+        },
+        {
+          "text": "Input VAT Recovery",
+          "bbox": [
+            78.0,
+            117.0199966430664,
+            211.02801513671875,
+            136.29800415039062
+          ],
+          "page": 2
+        },
+        {
+          "text": "A major improvement under the Nigeria Tax Act, 2025 is the expanded scope for input VAT\nrecovery. Previously, businesses faced significant challenges in claiming credit for VAT paid on\ncapital expenditure and input services, leading to 'cascading' tax burdens.",
+          "bbox": [
+            78.0,
+            141.25,
+            517.2755737304688,
+            178.99000549316406
+          ],
+          "page": 2
+        },
+        {
+          "text": "The new law provides that:",
+          "bbox": [
+            78.0,
+            189.25,
+            196.9399871826172,
+            202.99000549316406
+          ],
+          "page": 2
+        },
+        {
+          "text": "• Registered businesses may claim input VAT on all purchases related to their taxable supplies,\nincluding services and fixed assets (capital goods).",
+          "bbox": [
+            78.0,
+            215.25,
+            504.45989990234375,
+            240.99000549316406
+          ],
+          "page": 2
+        },
+        {
+          "text": "• Input VAT is fully recoverable for businesses making taxable (standard-rated or zero-rated)\nsupplies.",
+          "bbox": [
+            78.0,
+            251.25,
+            486.0998229980469,
+            276.989990234375
+          ],
+          "page": 2
+        },
+        {
+          "text": "• Businesses making both taxable and exempt supplies must apportion input VAT and may only\nrecover the portion attributable to taxable activities.",
+          "bbox": [
+            78.0,
+            287.25,
+            500.0299072265625,
+            312.989990234375
+          ],
+          "page": 2
+        },
+        {
+          "text": "• The time limit for claiming input VAT is six years from the date of the transaction, provided proper\ndocumentation (tax invoices) is maintained.",
+          "bbox": [
+            78.0,
+            323.2499694824219,
+            513.3298950195312,
+            348.9899597167969
+          ],
+          "page": 2
+        },
+        {
+          "text": "This reform significantly reduces the effective tax burden on businesses, particularly in\ncapital-intensive sectors such as manufacturing, infrastructure, and telecommunications.",
+          "bbox": [
+            78.0,
+            365.2499694824219,
+            517.2754516601562,
+            390.9899597167969
+          ],
+          "page": 2
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 3,
+      "text": "VAT EXEMPTIONS AND ZERO-RATED ITEMS\nThe Nigeria Tax Act, 2025 distinguishes between exempt supplies (which do not attract VAT and\ndo not allow input VAT recovery) and zero-rated supplies (which are taxed at 0% but allow full input\nVAT recovery). This distinction is critical for businesses in determining their VAT compliance\nobligations.\nExempt Supplies\nThe following supplies are exempt from VAT (no VAT charged, no input VAT recovery):\n• Baby products: Diapers, baby formula, baby food, and essential baby care items.\n• Agricultural equipment: Tractors, ploughs, harvesters, irrigation systems, and other farming\nimplements.\n• Educational and cultural performances: Theatre productions, concerts, exhibitions (excluding\ncommercial entertainment).\n• Donor-funded humanitarian goods: Relief materials, medical supplies, and food aid provided by\nrecognized international organizations.\n• Real estate transactions: Sale and lease of land and buildings (residential and commercial).\n• Financial services: Lending, deposit-taking, foreign exchange transactions, life insurance,\nsecurities trading (subject to specific conditions).\n• Medical and healthcare services: Consultations, diagnostic tests, surgery, and hospitalization\n(excluding cosmetic procedures).\n• Public transportation: Intra-city bus services, train services, and other mass transit systems.\nZero-Rated Supplies\nThe following supplies are zero-rated (VAT charged at 0%, but suppliers may recover input VAT):\n• Basic food items: Rice, beans, yam, cassava, maize, millet, bread, and other staple foods\nessential for nutrition.\n• Medical and pharmaceutical products: Prescription drugs, vaccines, medical devices, hospital\nequipment.\n• Educational materials: Textbooks, instructional materials, stationery for primary and secondary\neducation.\n• Electricity: Supply of power from the national grid and independent power producers (residential\nand commercial).\n• Tuition and educational services: Fees charged by nursery, primary, secondary, and tertiary\neducational institutions (public and private).\n• Exported goods and services: All goods and services supplied for consumption outside Nigeria\n(subject to documentary evidence).\n• Electric vehicles and components: Battery electric vehicles (BEVs), hybrid vehicles, charging\ninfrastructure, and related parts.\n",
+      "blocks": [
+        {
+          "text": "VAT EXEMPTIONS AND ZERO-RATED ITEMS",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            464.0279846191406,
+            101.5260009765625
+          ],
+          "page": 3
+        },
+        {
+          "text": "The Nigeria Tax Act, 2025 distinguishes between exempt supplies (which do not attract VAT and\ndo not allow input VAT recovery) and zero-rated supplies (which are taxed at 0% but allow full input\nVAT recovery). This distinction is critical for businesses in determining their VAT compliance\nobligations.",
+          "bbox": [
+            78.0,
+            117.25,
+            517.2755126953125,
+            166.99000549316406
+          ],
+          "page": 3
+        },
+        {
+          "text": "Exempt Supplies",
+          "bbox": [
+            78.0,
+            193.02000427246094,
+            190.81201171875,
+            212.29800415039062
+          ],
+          "page": 3
+        },
+        {
+          "text": "The following supplies are exempt from VAT (no VAT charged, no input VAT recovery):",
+          "bbox": [
+            78.0,
+            217.25,
+            463.14990234375,
+            230.99000549316406
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Baby products: Diapers, baby formula, baby food, and essential baby care items.",
+          "bbox": [
+            78.0,
+            243.25,
+            448.3099060058594,
+            257.07000732421875
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Agricultural equipment: Tractors, ploughs, harvesters, irrigation systems, and other farming\nimplements.",
+          "bbox": [
+            78.0,
+            267.25,
+            496.619873046875,
+            292.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Educational and cultural performances: Theatre productions, concerts, exhibitions (excluding\ncommercial entertainment).",
+          "bbox": [
+            78.0,
+            303.25,
+            508.8699035644531,
+            328.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Donor-funded humanitarian goods: Relief materials, medical supplies, and food aid provided by\nrecognized international organizations.",
+          "bbox": [
+            78.0,
+            339.2499694824219,
+            517.2755126953125,
+            364.9899597167969
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Real estate transactions: Sale and lease of land and buildings (residential and commercial).",
+          "bbox": [
+            78.0,
+            375.2499694824219,
+            497.2198486328125,
+            389.0699768066406
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Financial services: Lending, deposit-taking, foreign exchange transactions, life insurance,\nsecurities trading (subject to specific conditions).",
+          "bbox": [
+            78.0,
+            399.2499694824219,
+            486.14990234375,
+            424.9899597167969
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Medical and healthcare services: Consultations, diagnostic tests, surgery, and hospitalization\n(excluding cosmetic procedures).",
+          "bbox": [
+            78.0,
+            435.2499694824219,
+            505.57989501953125,
+            460.9899597167969
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Public transportation: Intra-city bus services, train services, and other mass transit systems.",
+          "bbox": [
+            78.0,
+            471.2499694824219,
+            498.82989501953125,
+            485.0699768066406
+          ],
+          "page": 3
+        },
+        {
+          "text": "Zero-Rated Supplies",
+          "bbox": [
+            78.0,
+            517.02001953125,
+            214.13600158691406,
+            536.2979736328125
+          ],
+          "page": 3
+        },
+        {
+          "text": "The following supplies are zero-rated (VAT charged at 0%, but suppliers may recover input VAT):",
+          "bbox": [
+            78.0,
+            541.25,
+            507.6098937988281,
+            554.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Basic food items: Rice, beans, yam, cassava, maize, millet, bread, and other staple foods\nessential for nutrition.",
+          "bbox": [
+            78.0,
+            567.25,
+            486.6598815917969,
+            592.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Medical and pharmaceutical products: Prescription drugs, vaccines, medical devices, hospital\nequipment.",
+          "bbox": [
+            78.0,
+            603.25,
+            511.0799255371094,
+            628.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Educational materials: Textbooks, instructional materials, stationery for primary and secondary\neducation.",
+          "bbox": [
+            78.0,
+            639.25,
+            509.9798583984375,
+            664.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Electricity: Supply of power from the national grid and independent power producers (residential\nand commercial).",
+          "bbox": [
+            78.0,
+            675.25,
+            512.809814453125,
+            700.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Tuition and educational services: Fees charged by nursery, primary, secondary, and tertiary\neducational institutions (public and private).",
+          "bbox": [
+            78.0,
+            711.25,
+            502.1998291015625,
+            736.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Exported goods and services: All goods and services supplied for consumption outside Nigeria\n(subject to documentary evidence).",
+          "bbox": [
+            78.0,
+            747.25,
+            513.3298950195312,
+            772.989990234375
+          ],
+          "page": 3
+        },
+        {
+          "text": "• Electric vehicles and components: Battery electric vehicles (BEVs), hybrid vehicles, charging\ninfrastructure, and related parts.",
+          "bbox": [
+            78.0,
+            783.25,
+            506.63995361328125,
+            808.989990234375
+          ],
+          "page": 3
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 4,
+      "text": "• Renewable energy equipment: Solar panels, wind turbines, biogas systems, and related\ninstallation services.\nThe zero-rating of basic food, education, healthcare, and electricity is designed to reduce the cost\nof living for ordinary Nigerians and ensure that essential goods and services remain affordable.\n",
+      "blocks": [
+        {
+          "text": "• Renewable energy equipment: Solar panels, wind turbines, biogas systems, and related\ninstallation services.",
+          "bbox": [
+            78.0,
+            77.25,
+            481.64990234375,
+            102.98999786376953
+          ],
+          "page": 4
+        },
+        {
+          "text": "The zero-rating of basic food, education, healthcare, and electricity is designed to reduce the cost\nof living for ordinary Nigerians and ensure that essential goods and services remain affordable.",
+          "bbox": [
+            78.0,
+            119.25,
+            517.2755126953125,
+            144.99000549316406
+          ],
+          "page": 4
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 5,
+      "text": "VAT DISTRIBUTION FORMULA REFORMS\nThe Nigeria Tax Act, 2025 introduces a revised formula for distributing VAT revenue among the\nfederal, state, and local governments. This change has been one of the most debated aspects of\nthe tax reforms, particularly among state governments.\nPrevious Distribution Formula\nUnder the old VAT Act, revenue was distributed as follows:\n• 50% - Equally distributed among all states and the FCT (horizontal equity)\n• 30% - Based on population (derivation by headcount)\n• 20% - Based on place of collection (derivation by location of VAT remittance)\nNew Distribution Formula (Effective January 1, 2026)\nThe Nigeria Tax Act, 2025 adjusts the formula to:\n• 50% - Equally distributed among all states and the FCT (unchanged)\n• 20% - Based on population (reduced from 30%)\n• 30% - Based on consumption (increased from 20%, but methodology changed)\nKey Change: From 'Place of Collection' to 'Place of Consumption'\nThe most significant reform is the shift from derivation by place of collection to derivation by\nplace of consumption. Under the old system, VAT revenue was allocated based on where\ncompanies remitted their taxes, which disproportionately favored commercial hubs like Lagos\n(where most corporate headquarters are located).\nUnder the new system, VAT is attributed to the state where goods or services are actually\nconsumed. This is tracked through:\n• Point-of-sale (POS) transaction data showing where purchases were made.\n• Delivery addresses for e-commerce and online transactions.\n• Service delivery locations for professional and technical services.\n• Customer billing addresses for utilities, telecommunications, and digital services.\nThis reform is expected to result in a more equitable distribution of VAT revenue, benefiting states\nwith large consumer populations even if they do not host major corporate headquarters. However, it\nhas raised concerns among states like Lagos, which may see reductions in their VAT allocations.\n",
+      "blocks": [
+        {
+          "text": "VAT DISTRIBUTION FORMULA REFORMS",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            436.99200439453125,
+            101.5260009765625
+          ],
+          "page": 5
+        },
+        {
+          "text": "The Nigeria Tax Act, 2025 introduces a revised formula for distributing VAT revenue among the\nfederal, state, and local governments. This change has been one of the most debated aspects of\nthe tax reforms, particularly among state governments.",
+          "bbox": [
+            78.0,
+            117.25,
+            517.2755737304688,
+            154.99000549316406
+          ],
+          "page": 5
+        },
+        {
+          "text": "Previous Distribution Formula",
+          "bbox": [
+            78.0,
+            177.02000427246094,
+            278.7040100097656,
+            196.29800415039062
+          ],
+          "page": 5
+        },
+        {
+          "text": "Under the old VAT Act, revenue was distributed as follows:",
+          "bbox": [
+            78.0,
+            201.25,
+            338.1099548339844,
+            214.99000549316406
+          ],
+          "page": 5
+        },
+        {
+          "text": "• 50% - Equally distributed among all states and the FCT (horizontal equity)",
+          "bbox": [
+            78.0,
+            227.25,
+            411.07989501953125,
+            241.07000732421875
+          ],
+          "page": 5
+        },
+        {
+          "text": "• 30% - Based on population (derivation by headcount)",
+          "bbox": [
+            78.0,
+            249.25,
+            319.9599304199219,
+            263.07000732421875
+          ],
+          "page": 5
+        },
+        {
+          "text": "• 20% - Based on place of collection (derivation by location of VAT remittance)",
+          "bbox": [
+            78.0,
+            271.25,
+            423.86993408203125,
+            285.07000732421875
+          ],
+          "page": 5
+        },
+        {
+          "text": "New Distribution Formula (Effective January 1, 2026)",
+          "bbox": [
+            78.0,
+            311.01995849609375,
+            428.0979309082031,
+            330.2979736328125
+          ],
+          "page": 5
+        },
+        {
+          "text": "The Nigeria Tax Act, 2025 adjusts the formula to:",
+          "bbox": [
+            78.0,
+            335.2499694824219,
+            295.3199768066406,
+            348.9899597167969
+          ],
+          "page": 5
+        },
+        {
+          "text": "• 50% - Equally distributed among all states and the FCT (unchanged)",
+          "bbox": [
+            78.0,
+            361.2499694824219,
+            387.7499084472656,
+            375.0699768066406
+          ],
+          "page": 5
+        },
+        {
+          "text": "• 20% - Based on population (reduced from 30%)",
+          "bbox": [
+            78.0,
+            383.2499694824219,
+            295.4899597167969,
+            397.0699768066406
+          ],
+          "page": 5
+        },
+        {
+          "text": "• 30% - Based on consumption (increased from 20%, but methodology changed)",
+          "bbox": [
+            78.0,
+            405.2499694824219,
+            433.8899230957031,
+            419.0699768066406
+          ],
+          "page": 5
+        },
+        {
+          "text": "Key Change: From 'Place of Collection' to 'Place of Consumption'",
+          "bbox": [
+            78.0,
+            441.01995849609375,
+            513.73583984375,
+            460.2979736328125
+          ],
+          "page": 5
+        },
+        {
+          "text": "The most significant reform is the shift from derivation by place of collection to derivation by\nplace of consumption. Under the old system, VAT revenue was allocated based on where\ncompanies remitted their taxes, which disproportionately favored commercial hubs like Lagos\n(where most corporate headquarters are located).",
+          "bbox": [
+            78.0,
+            465.25,
+            517.2755737304688,
+            514.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "Under the new system, VAT is attributed to the state where goods or services are actually\nconsumed. This is tracked through:",
+          "bbox": [
+            78.0,
+            525.25,
+            517.2754516601562,
+            550.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "• Point-of-sale (POS) transaction data showing where purchases were made.",
+          "bbox": [
+            78.0,
+            563.25,
+            418.2999267578125,
+            576.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "• Delivery addresses for e-commerce and online transactions.",
+          "bbox": [
+            78.0,
+            587.25,
+            350.47998046875,
+            600.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "• Service delivery locations for professional and technical services.",
+          "bbox": [
+            78.0,
+            611.25,
+            372.1599426269531,
+            624.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "• Customer billing addresses for utilities, telecommunications, and digital services.",
+          "bbox": [
+            78.0,
+            635.25,
+            439.949951171875,
+            648.989990234375
+          ],
+          "page": 5
+        },
+        {
+          "text": "This reform is expected to result in a more equitable distribution of VAT revenue, benefiting states\nwith large consumer populations even if they do not host major corporate headquarters. However, it\nhas raised concerns among states like Lagos, which may see reductions in their VAT allocations.",
+          "bbox": [
+            78.0,
+            665.25,
+            517.2755126953125,
+            702.989990234375
+          ],
+          "page": 5
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 6,
+      "text": "UNPRECEDENTED RELIEF FOR SMALL\nBUSINESSES\nThe Nigeria Tax Act, 2025 provides the most generous tax relief for small and medium-sized\nenterprises (SMEs) in Nigeria's fiscal history. These measures are designed to reduce compliance\nburdens, lower operating costs, and stimulate entrepreneurship and job creation.\nComplete Exemption for 97% of Small Businesses\nAccording to official statements from the Presidential Committee on Fiscal Policy and Tax Reforms,\napproximately 97% of small businesses in Nigeria will be completely exempt from the following\ntaxes:\n• Corporate Income Tax (CIT): Companies with annual turnover of I50 million or less pay 0% CIT.\n• Value Added Tax (VAT): Small businesses below the mandatory VAT registration threshold are\nnot required to register or charge VAT.\n• Withholding Tax (WHT): Small businesses are exempt from WHT deductions on certain\nqualifying transactions.\nThis exemption applies automatically based on turnover. Eligible businesses do not need to apply\nfor exemption certificates; they simply file returns indicating their turnover level and claim the 0%\nrate.\nWho Qualifies as a 'Small Business'?\nUnder the Nigeria Tax Act, 2025, a small business is defined as:\n• Annual Turnover: Total revenue of I50 million or less in a tax year.\n• Business Structure: The relief applies to companies, sole proprietorships, partnerships, and\nother business entities.\n• Business Activities: The relief covers all lawful business activities (trading, manufacturing,\nservices, etc.), excluding illegal enterprises.\n• Compliance Requirement: Businesses must file annual tax returns (even if reporting zero tax\nliability) to maintain eligibility.\nProgressive Taxation for Medium and Large Businesses\nBusinesses with turnover exceeding I50 million are subject to the following rates:\n• Turnover above I50 million: Standard Corporate Income Tax (CIT) rate of 30%, plus a 4%\nDevelopment Levy on assessable profits.\n• VAT registration mandatory: Businesses with annual turnover above I25 million must register\nfor VAT and charge 7.5% on taxable supplies.\n• Large companies (turnover > I50 billion): Subject to additional reporting requirements,\nincluding country-by-country reporting for multinationals and minimum Effective Tax Rate (ETR)\nrules aligned with OECD Base Erosion and Profit Shifting (BEPS) standards.\n",
+      "blocks": [
+        {
+          "text": "UNPRECEDENTED RELIEF FOR SMALL\nBUSINESSES",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            419.0099792480469,
+            123.5260009765625
+          ],
+          "page": 6
+        },
+        {
+          "text": "The Nigeria Tax Act, 2025 provides the most generous tax relief for small and medium-sized\nenterprises (SMEs) in Nigeria's fiscal history. These measures are designed to reduce compliance\nburdens, lower operating costs, and stimulate entrepreneurship and job creation.",
+          "bbox": [
+            78.0,
+            139.25,
+            517.2755126953125,
+            176.99000549316406
+          ],
+          "page": 6
+        },
+        {
+          "text": "Complete Exemption for 97% of Small Businesses",
+          "bbox": [
+            78.0,
+            203.02000427246094,
+            411.75994873046875,
+            222.29800415039062
+          ],
+          "page": 6
+        },
+        {
+          "text": "According to official statements from the Presidential Committee on Fiscal Policy and Tax Reforms,\napproximately 97% of small businesses in Nigeria will be completely exempt from the following\ntaxes:",
+          "bbox": [
+            78.0,
+            227.25,
+            517.2755126953125,
+            264.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Corporate Income Tax (CIT): Companies with annual turnover of I50 million or less pay 0% CIT.",
+          "bbox": [
+            78.0,
+            277.25,
+            517.275634765625,
+            291.07000732421875
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Value Added Tax (VAT): Small businesses below the mandatory VAT registration threshold are\nnot required to register or charge VAT.",
+          "bbox": [
+            78.0,
+            303.25,
+            509.41986083984375,
+            328.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Withholding Tax (WHT): Small businesses are exempt from WHT deductions on certain\nqualifying transactions.",
+          "bbox": [
+            78.0,
+            341.2499694824219,
+            477.139892578125,
+            366.9899597167969
+          ],
+          "page": 6
+        },
+        {
+          "text": "This exemption applies automatically based on turnover. Eligible businesses do not need to apply\nfor exemption certificates; they simply file returns indicating their turnover level and claim the 0%\nrate.",
+          "bbox": [
+            78.0,
+            385.2499694824219,
+            517.275634765625,
+            422.9899597167969
+          ],
+          "page": 6
+        },
+        {
+          "text": "Who Qualifies as a 'Small Business'?",
+          "bbox": [
+            78.0,
+            449.01995849609375,
+            325.0859680175781,
+            468.2979736328125
+          ],
+          "page": 6
+        },
+        {
+          "text": "Under the Nigeria Tax Act, 2025, a small business is defined as:",
+          "bbox": [
+            78.0,
+            473.2499694824219,
+            362.0099792480469,
+            486.9899597167969
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Annual Turnover: Total revenue of I50 million or less in a tax year.",
+          "bbox": [
+            78.0,
+            499.2499694824219,
+            387.5399475097656,
+            513.0699462890625
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Business Structure: The relief applies to companies, sole proprietorships, partnerships, and\nother business entities.",
+          "bbox": [
+            78.0,
+            523.25,
+            496.099853515625,
+            548.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Business Activities: The relief covers all lawful business activities (trading, manufacturing,\nservices, etc.), excluding illegal enterprises.",
+          "bbox": [
+            78.0,
+            559.25,
+            488.8598937988281,
+            584.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Compliance Requirement: Businesses must file annual tax returns (even if reporting zero tax\nliability) to maintain eligibility.",
+          "bbox": [
+            78.0,
+            595.25,
+            501.08984375,
+            620.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "Progressive Taxation for Medium and Large Businesses",
+          "bbox": [
+            78.0,
+            653.02001953125,
+            451.449951171875,
+            672.2979736328125
+          ],
+          "page": 6
+        },
+        {
+          "text": "Businesses with turnover exceeding I50 million are subject to the following rates:",
+          "bbox": [
+            78.0,
+            677.25,
+            439.0899353027344,
+            690.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Turnover above I50 million: Standard Corporate Income Tax (CIT) rate of 30%, plus a 4%\nDevelopment Levy on assessable profits.",
+          "bbox": [
+            78.0,
+            703.25,
+            493.7098693847656,
+            728.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "• VAT registration mandatory: Businesses with annual turnover above I25 million must register\nfor VAT and charge 7.5% on taxable supplies.",
+          "bbox": [
+            78.0,
+            741.25,
+            509.2398681640625,
+            766.989990234375
+          ],
+          "page": 6
+        },
+        {
+          "text": "• Large companies (turnover > I50 billion): Subject to additional reporting requirements,\nincluding country-by-country reporting for multinationals and minimum Effective Tax Rate (ETR)\nrules aligned with OECD Base Erosion and Profit Shifting (BEPS) standards.",
+          "bbox": [
+            78.0,
+            779.25,
+            500.3498840332031,
+            816.989990234375
+          ],
+          "page": 6
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 7,
+      "text": "Importantly, even large companies will benefit from reduced tax burdens due to the consolidation of\nmultiple sectoral levies (Education Tax, IT Levy, NASENI Levy) into a single 4% Development Levy,\nresulting in net savings for most businesses.\n",
+      "blocks": [
+        {
+          "text": "Importantly, even large companies will benefit from reduced tax burdens due to the consolidation of\nmultiple sectoral levies (Education Tax, IT Levy, NASENI Levy) into a single 4% Development Levy,\nresulting in net savings for most businesses.",
+          "bbox": [
+            78.0,
+            97.25,
+            517.2755737304688,
+            134.99000549316406
+          ],
+          "page": 7
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 8,
+      "text": "COMPLIANCE REQUIREMENTS FOR BUSINESSES\nFor Small Businesses (Turnover ≤ I50 million)\nEven though exempt from CIT and VAT, small businesses must:\n• Obtain a TIN: Register with the NRS and obtain a Tax Identification Number (or use CAC RC\nNumber as TIN for registered companies).\n• File annual returns: Submit annual tax returns indicating turnover and claiming exemption (0%\ntax rate).\n• Maintain records: Keep basic accounting records (receipts, invoices, bank statements) for at\nleast six years.\n• Issue receipts: Provide customers with receipts for all transactions (even if VAT is not charged).\n• Monitor turnover: Track annual revenue to determine when mandatory VAT registration or CIT\nliability is triggered.\nFor VAT-Registered Businesses\nBusinesses registered for VAT must:\n• Charge VAT: Add 7.5% VAT to all taxable supplies (unless exempt or zero-rated).\n• Issue tax invoices: Provide customers with VAT-compliant invoices showing VAT amount\nseparately.\n• File monthly returns: Submit VAT returns to the NRS by the 21st day of the following month.\n• Remit VAT collected: Pay net VAT liability (output VAT minus input VAT) within the filing\ndeadline.\n• Claim input VAT: Maintain proper documentation (supplier tax invoices) to support input VAT\nclaims.\n• Keep VAT records: Retain all VAT invoices, returns, and payment receipts for at least six years.\nFor Digital Service Providers and Non-Residents\nForeign businesses supplying digital services to Nigerian customers must:\n• Register for VAT: Apply for VAT registration with the NRS, even if no physical presence in\nNigeria.\n• Appoint a local representative: Designate a tax agent or representative in Nigeria (if required by\nNRS).\n• Charge VAT: Add 7.5% VAT to invoices for Nigerian customers.\n• File returns electronically: Submit VAT returns through the NRS online portal.\n• Remit VAT in Naira: Convert foreign currency receipts to Naira at CBN exchange rates for VAT\ncalculation and remittance.\n",
+      "blocks": [
+        {
+          "text": "COMPLIANCE REQUIREMENTS FOR BUSINESSES",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            513.0420532226562,
+            101.5260009765625
+          ],
+          "page": 8
+        },
+        {
+          "text": "For Small Businesses (Turnover ≤ I50 million)",
+          "bbox": [
+            78.0,
+            129.02000427246094,
+            388.0999755859375,
+            148.29800415039062
+          ],
+          "page": 8
+        },
+        {
+          "text": "Even though exempt from CIT and VAT, small businesses must:",
+          "bbox": [
+            78.0,
+            153.25,
+            361.99993896484375,
+            166.99000549316406
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Obtain a TIN: Register with the NRS and obtain a Tax Identification Number (or use CAC RC\nNumber as TIN for registered companies).",
+          "bbox": [
+            78.0,
+            179.25,
+            497.1899108886719,
+            204.99000549316406
+          ],
+          "page": 8
+        },
+        {
+          "text": "• File annual returns: Submit annual tax returns indicating turnover and claiming exemption (0%\ntax rate).",
+          "bbox": [
+            78.0,
+            215.25,
+            506.6598815917969,
+            240.99000549316406
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Maintain records: Keep basic accounting records (receipts, invoices, bank statements) for at\nleast six years.",
+          "bbox": [
+            78.0,
+            251.25,
+            497.7698669433594,
+            276.989990234375
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Issue receipts: Provide customers with receipts for all transactions (even if VAT is not charged).",
+          "bbox": [
+            78.0,
+            287.25,
+            511.6598815917969,
+            301.07000732421875
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Monitor turnover: Track annual revenue to determine when mandatory VAT registration or CIT\nliability is triggered.",
+          "bbox": [
+            78.0,
+            311.2499694824219,
+            507.1898498535156,
+            336.9899597167969
+          ],
+          "page": 8
+        },
+        {
+          "text": "For VAT-Registered Businesses",
+          "bbox": [
+            78.0,
+            369.01995849609375,
+            291.16400146484375,
+            388.2979736328125
+          ],
+          "page": 8
+        },
+        {
+          "text": "Businesses registered for VAT must:",
+          "bbox": [
+            78.0,
+            393.2499694824219,
+            240.27999877929688,
+            406.9899597167969
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Charge VAT: Add 7.5% VAT to all taxable supplies (unless exempt or zero-rated).",
+          "bbox": [
+            78.0,
+            419.2499694824219,
+            448.29986572265625,
+            433.0699768066406
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Issue tax invoices: Provide customers with VAT-compliant invoices showing VAT amount\nseparately.",
+          "bbox": [
+            78.0,
+            443.2499694824219,
+            484.4199523925781,
+            468.9899597167969
+          ],
+          "page": 8
+        },
+        {
+          "text": "• File monthly returns: Submit VAT returns to the NRS by the 21st day of the following month.",
+          "bbox": [
+            78.0,
+            479.2499694824219,
+            498.889892578125,
+            493.0699768066406
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Remit VAT collected: Pay net VAT liability (output VAT minus input VAT) within the filing\ndeadline.",
+          "bbox": [
+            78.0,
+            503.25,
+            479.9699401855469,
+            528.989990234375
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Claim input VAT: Maintain proper documentation (supplier tax invoices) to support input VAT\nclaims.",
+          "bbox": [
+            78.0,
+            539.25,
+            498.8699035644531,
+            564.989990234375
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Keep VAT records: Retain all VAT invoices, returns, and payment receipts for at least six years.",
+          "bbox": [
+            78.0,
+            575.25,
+            512.2098999023438,
+            589.0700073242188
+          ],
+          "page": 8
+        },
+        {
+          "text": "For Digital Service Providers and Non-Residents",
+          "bbox": [
+            78.0,
+            621.02001953125,
+            400.8679504394531,
+            640.2979736328125
+          ],
+          "page": 8
+        },
+        {
+          "text": "Foreign businesses supplying digital services to Nigerian customers must:",
+          "bbox": [
+            78.0,
+            645.25,
+            405.3299255371094,
+            658.989990234375
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Register for VAT: Apply for VAT registration with the NRS, even if no physical presence in\nNigeria.",
+          "bbox": [
+            78.0,
+            671.25,
+            486.6399230957031,
+            696.989990234375
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Appoint a local representative: Designate a tax agent or representative in Nigeria (if required by\nNRS).",
+          "bbox": [
+            78.0,
+            707.25,
+            517.2198486328125,
+            732.989990234375
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Charge VAT: Add 7.5% VAT to invoices for Nigerian customers.",
+          "bbox": [
+            78.0,
+            743.25,
+            369.36993408203125,
+            757.0700073242188
+          ],
+          "page": 8
+        },
+        {
+          "text": "• File returns electronically: Submit VAT returns through the NRS online portal.",
+          "bbox": [
+            78.0,
+            767.25,
+            436.0899353027344,
+            781.0700073242188
+          ],
+          "page": 8
+        },
+        {
+          "text": "• Remit VAT in Naira: Convert foreign currency receipts to Naira at CBN exchange rates for VAT\ncalculation and remittance.",
+          "bbox": [
+            78.0,
+            791.25,
+            508.3099365234375,
+            816.989990234375
+          ],
+          "page": 8
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 9,
+      "text": "",
+      "blocks": [],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    },
+    {
+      "page_number": 10,
+      "text": "PENALTIES FOR NON-COMPLIANCE\nThe Nigeria Tax Administration Act, 2025 significantly enhances penalties for tax non-compliance to\ndeter evasion and ensure fairness. However, the government has emphasized that the primary goal\nis compliance, not punishment, and taxpayers who demonstrate good-faith efforts to comply will be\ntreated leniently.\n• Late filing of returns: I100,000 penalty in the first month, plus I50,000 for each subsequent\nmonth of delay.\n• Late payment of tax: Interest charged at the Central Bank of Nigeria's Monetary Policy Rate\n(MPR) from the due date until payment.\n• Failure to register for VAT: Up to I5 million penalty for businesses operating above the\nmandatory registration threshold without registering.\n• Issuance of fake tax invoices: Criminal prosecution and potential imprisonment in addition to\nfinancial penalties.\n• Deliberate tax evasion or fraud: Criminal prosecution, asset forfeiture, and unlimited financial\npenalties based on the amount evaded.\n• Non-compliance with digital reporting requirements: Up to I5 million penalty for failure to\ndeploy required technology or submit electronic returns.\nTaxpayers facing genuine difficulties in meeting compliance obligations are encouraged to engage\nproactively with the NRS to negotiate payment plans or seek penalty waivers on compassionate\ngrounds.\nCONCLUSION: A PRO-BUSINESS REFORM\nAGENDA\nThe VAT and small business provisions of the Nigeria Tax Act, 2025 represent a fundamental shift\nin Nigeria's approach to taxation. By exempting 97% of small businesses from major taxes,\nmaintaining the VAT rate at 7.5%, zero-rating essential goods and services, and improving input\nVAT recovery, the government has demonstrated a genuine commitment to reducing the tax\nburden on ordinary Nigerians and small entrepreneurs.\nAt the same time, the expansion of VAT coverage to include digital services and non-resident\nsuppliers ensures that the tax system keeps pace with the evolving economy and captures revenue\nfrom previously untaxed activities. The revised VAT distribution formula promises a more equitable\nsharing of revenue among states, though it remains a subject of ongoing political debate.\nFor businesses, the key to success under the new regime is proactive compliance: understand the\nrules, maintain proper records, file returns on time, and seek professional advice when in doubt.\nThe NRS has committed to providing extensive taxpayer education and support services to\nfacilitate smooth transition to the new tax framework.\nAs Nigeria enters this new fiscal era on January 1, 2026, businesses and taxpayers are encouraged\nto embrace the reforms as an opportunity to build a more transparent, efficient, and equitable tax\nsystem that supports sustainable economic growth and development.\n",
+      "blocks": [
+        {
+          "text": "PENALTIES FOR NON-COMPLIANCE",
+          "bbox": [
+            78.0,
+            76.73999786376953,
+            394.0080261230469,
+            101.5260009765625
+          ],
+          "page": 10
+        },
+        {
+          "text": "The Nigeria Tax Administration Act, 2025 significantly enhances penalties for tax non-compliance to\ndeter evasion and ensure fairness. However, the government has emphasized that the primary goal\nis compliance, not punishment, and taxpayers who demonstrate good-faith efforts to comply will be\ntreated leniently.",
+          "bbox": [
+            78.0,
+            117.25,
+            517.2754516601562,
+            166.99000549316406
+          ],
+          "page": 10
+        },
+        {
+          "text": "• Late filing of returns: I100,000 penalty in the first month, plus I50,000 for each subsequent\nmonth of delay.",
+          "bbox": [
+            78.0,
+            183.25,
+            500.7998962402344,
+            208.99000549316406
+          ],
+          "page": 10
+        },
+        {
+          "text": "• Late payment of tax: Interest charged at the Central Bank of Nigeria's Monetary Policy Rate\n(MPR) from the due date until payment.",
+          "bbox": [
+            78.0,
+            221.25,
+            495.22991943359375,
+            246.99000549316406
+          ],
+          "page": 10
+        },
+        {
+          "text": "• Failure to register for VAT: Up to I5 million penalty for businesses operating above the\nmandatory registration threshold without registering.",
+          "bbox": [
+            78.0,
+            259.25,
+            478.14990234375,
+            284.989990234375
+          ],
+          "page": 10
+        },
+        {
+          "text": "• Issuance of fake tax invoices: Criminal prosecution and potential imprisonment in addition to\nfinancial penalties.",
+          "bbox": [
+            78.0,
+            297.25,
+            501.6698913574219,
+            322.989990234375
+          ],
+          "page": 10
+        },
+        {
+          "text": "• Deliberate tax evasion or fraud: Criminal prosecution, asset forfeiture, and unlimited financial\npenalties based on the amount evaded.",
+          "bbox": [
+            78.0,
+            335.2499694824219,
+            503.8699035644531,
+            360.9899597167969
+          ],
+          "page": 10
+        },
+        {
+          "text": "• Non-compliance with digital reporting requirements: Up to I5 million penalty for failure to\ndeploy required technology or submit electronic returns.",
+          "bbox": [
+            78.0,
+            373.2499694824219,
+            497.5498962402344,
+            398.9899597167969
+          ],
+          "page": 10
+        },
+        {
+          "text": "Taxpayers facing genuine difficulties in meeting compliance obligations are encouraged to engage\nproactively with the NRS to negotiate payment plans or seek penalty waivers on compassionate\ngrounds.",
+          "bbox": [
+            78.0,
+            417.2499694824219,
+            517.2755126953125,
+            454.9899597167969
+          ],
+          "page": 10
+        },
+        {
+          "text": "CONCLUSION: A PRO-BUSINESS REFORM\nAGENDA",
+          "bbox": [
+            78.0,
+            476.739990234375,
+            448.0080261230469,
+            523.5260009765625
+          ],
+          "page": 10
+        },
+        {
+          "text": "The VAT and small business provisions of the Nigeria Tax Act, 2025 represent a fundamental shift\nin Nigeria's approach to taxation. By exempting 97% of small businesses from major taxes,\nmaintaining the VAT rate at 7.5%, zero-rating essential goods and services, and improving input\nVAT recovery, the government has demonstrated a genuine commitment to reducing the tax\nburden on ordinary Nigerians and small entrepreneurs.",
+          "bbox": [
+            78.0,
+            539.25,
+            517.2755126953125,
+            600.989990234375
+          ],
+          "page": 10
+        },
+        {
+          "text": "At the same time, the expansion of VAT coverage to include digital services and non-resident\nsuppliers ensures that the tax system keeps pace with the evolving economy and captures revenue\nfrom previously untaxed activities. The revised VAT distribution formula promises a more equitable\nsharing of revenue among states, though it remains a subject of ongoing political debate.",
+          "bbox": [
+            78.0,
+            611.25,
+            517.2755126953125,
+            660.989990234375
+          ],
+          "page": 10
+        },
+        {
+          "text": "For businesses, the key to success under the new regime is proactive compliance: understand the\nrules, maintain proper records, file returns on time, and seek professional advice when in doubt.\nThe NRS has committed to providing extensive taxpayer education and support services to\nfacilitate smooth transition to the new tax framework.",
+          "bbox": [
+            78.0,
+            671.25,
+            517.2755737304688,
+            720.989990234375
+          ],
+          "page": 10
+        },
+        {
+          "text": "As Nigeria enters this new fiscal era on January 1, 2026, businesses and taxpayers are encouraged\nto embrace the reforms as an opportunity to build a more transparent, efficient, and equitable tax\nsystem that supports sustainable economic growth and development.",
+          "bbox": [
+            78.0,
+            731.25,
+            517.2755126953125,
+            768.989990234375
+          ],
+          "page": 10
+        }
+      ],
+      "width": 595.2755737304688,
+      "height": 841.8897705078125
+    }
+  ]
+}

@@ -400,6 +400,129 @@
   },
   {
     "chunk_id": 24,
+    "document_name": "tin_bank_account_requirements_2026.pdf",
+    "section_type": "section",
+    "section_number": "5",
+    "section_title": "If you encounter any discrepancies, contact the NRS helpdesk or visit your nearest tax office for",
+    "page_start": 6,
+    "page_end": 6,
+    "char_count": 354,
+    "word_count": 58,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language"
+    ]
+  },
+  {
+    "chunk_id": 25,
+    "document_name": "tin_bank_account_requirements_2026.pdf",
+    "section_type": "section",
+    "section_number": "4",
+    "section_title": "For verification or if you need a formal TIN certificate, visit the NRS online portal or your nearest",
+    "page_start": 6,
+    "page_end": 6,
+    "char_count": 440,
+    "word_count": 67,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": true,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language"
+    ]
+  },
+  {
+    "chunk_id": 26,
+    "document_name": "tin_bank_account_requirements_2026.pdf",
+    "section_type": "section",
+    "section_number": "5",
+    "section_title": "Your account will be opened and linked to your TIN automatically.",
+    "page_start": 7,
+    "page_end": 7,
+    "char_count": 111,
+    "word_count": 21,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 27,
+    "document_name": "tin_bank_account_requirements_2026.pdf",
+    "section_type": "section",
+    "section_number": "5",
+    "section_title": "If you are exempt (student, dependent, non-income earner), inform your bank and provide",
+    "page_start": 7,
+    "page_end": 8,
+    "char_count": 774,
+    "word_count": 110,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": true,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language"
+    ]
+  },
+  {
+    "chunk_id": 28,
+    "document_name": "tin_bank_account_requirements_2026.pdf",
+    "section_type": "section",
+    "section_number": "5",
+    "section_title": "If you are exempt (student, dependent, non-income earner), inform your bank and provide",
+    "page_start": 7,
+    "page_end": 8,
+    "char_count": 694,
+    "word_count": 94,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language",
+      "Contains amendments or changes to existing law"
+    ]
+  },
+  {
+    "chunk_id": 29,
+    "document_name": "tin_bank_account_requirements_2026.pdf",
+    "section_type": "section",
+    "section_number": "5",
+    "section_title": "If you are exempt (student, dependent, non-income earner), inform your bank and provide",
+    "page_start": 7,
+    "page_end": 8,
+    "char_count": 767,
+    "word_count": 100,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language"
+    ]
+  },
+  {
+    "chunk_id": 30,
+    "document_name": "tin_bank_account_requirements_2026.pdf",
+    "section_type": "section",
+    "section_number": "6",
+    "section_title": "For any questions or difficulties, contact the NRS helpdesk or visit your nearest tax office for",
+    "page_start": 9,
+    "page_end": 9,
+    "char_count": 205,
+    "word_count": 28,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 31,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "1",
@@ -415,7 +538,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 25,
+    "chunk_id": 32,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "2",
@@ -434,7 +557,7 @@
     ]
   },
   {
-    "chunk_id": 26,
+    "chunk_id": 33,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "3",
@@ -452,7 +575,7 @@
     ]
   },
   {
-    "chunk_id": 27,
+    "chunk_id": 34,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "4",
@@ -468,7 +591,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 28,
+    "chunk_id": 35,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "5",
@@ -487,7 +610,7 @@
     ]
   },
   {
-    "chunk_id": 29,
+    "chunk_id": 36,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "6",
@@ -505,7 +628,7 @@
     ]
   },
   {
-    "chunk_id": 30,
+    "chunk_id": 37,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "7",
@@ -524,7 +647,7 @@
     ]
   },
   {
-    "chunk_id": 31,
+    "chunk_id": 38,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "8",
@@ -542,7 +665,7 @@
     ]
   },
   {
-    "chunk_id": 32,
+    "chunk_id": 39,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "9",
@@ -560,7 +683,7 @@
     ]
   },
   {
-    "chunk_id": 33,
+    "chunk_id": 40,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "10",
@@ -576,7 +699,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 34,
+    "chunk_id": 41,
     "document_name": "nigeria_tax_reform_act_2025_sample.pdf",
     "section_type": "section",
     "section_number": "11",
@@ -590,11 +713,11 @@
     "contains_date": false,
     "contains_amount": false,
     "uncertainty_notes": [
-      "Multiple rates mentioned: 19%, 15%, 7%, 11%, 21%, 24%"
+      "Multiple rates mentioned: 24%, 15%, 7%, 11%, 19%, 21%"
     ]
   },
   {
-    "chunk_id": 35,
+    "chunk_id": 42,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -612,7 +735,7 @@
     ]
   },
   {
-    "chunk_id": 36,
+    "chunk_id": 43,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -631,7 +754,7 @@
     ]
   },
   {
-    "chunk_id": 37,
+    "chunk_id": 44,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -649,7 +772,7 @@
     ]
   },
   {
-    "chunk_id": 38,
+    "chunk_id": 45,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -668,7 +791,7 @@
     ]
   },
   {
-    "chunk_id": 39,
+    "chunk_id": 46,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -684,7 +807,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 40,
+    "chunk_id": 47,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -700,7 +823,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 41,
+    "chunk_id": 48,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -718,7 +841,7 @@
     ]
   },
   {
-    "chunk_id": 42,
+    "chunk_id": 49,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -736,7 +859,7 @@
     ]
   },
   {
-    "chunk_id": 43,
+    "chunk_id": 50,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -752,7 +875,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 44,
+    "chunk_id": 51,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -770,7 +893,7 @@
     ]
   },
   {
-    "chunk_id": 45,
+    "chunk_id": 52,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -785,12 +908,12 @@
     "contains_amount": false,
     "uncertainty_notes": [
       "Contains conditional or uncertain language",
-      "Multiple rates mentioned: 18%, 15%, 23%, 21%, 0%, 25%",
+      "Multiple rates mentioned: 25%, 23%, 18%, 15%, 21%, 0%",
       "Contains amendments or changes to existing law"
     ]
   },
   {
-    "chunk_id": 46,
+    "chunk_id": 53,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -806,7 +929,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 47,
+    "chunk_id": 54,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -825,7 +948,7 @@
     ]
   },
   {
-    "chunk_id": 48,
+    "chunk_id": 55,
     "document_name": "personal_income_tax_reforms_2025.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -843,7 +966,424 @@
     ]
   },
   {
-    "chunk_id": 49,
+    "chunk_id": 56,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 678,
+    "word_count": 98,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": true,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains amendments or changes to existing law"
+    ]
+  },
+  {
+    "chunk_id": 57,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 715,
+    "word_count": 118,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language",
+      "Contains amendments or changes to existing law",
+      "Contains exceptions or special conditions"
+    ]
+  },
+  {
+    "chunk_id": 58,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 547,
+    "word_count": 81,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language",
+      "Contains amendments or changes to existing law",
+      "Contains exceptions or special conditions"
+    ]
+  },
+  {
+    "chunk_id": 59,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 808,
+    "word_count": 119,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 60,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 494,
+    "word_count": 71,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 61,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 736,
+    "word_count": 109,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language"
+    ]
+  },
+  {
+    "chunk_id": 62,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 517,
+    "word_count": 72,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 63,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 1109,
+    "word_count": 138,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language",
+      "Contains amendments or changes to existing law"
+    ]
+  },
+  {
+    "chunk_id": 64,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 1077,
+    "word_count": 141,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language"
+    ]
+  },
+  {
+    "chunk_id": 65,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 474,
+    "word_count": 71,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains amendments or changes to existing law"
+    ]
+  },
+  {
+    "chunk_id": 66,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 888,
+    "word_count": 145,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": true,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Multiple rates mentioned: 50%, 30%, 20%",
+      "Contains amendments or changes to existing law"
+    ]
+  },
+  {
+    "chunk_id": 67,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 619,
+    "word_count": 86,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 68,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 606,
+    "word_count": 89,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language"
+    ]
+  },
+  {
+    "chunk_id": 69,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 770,
+    "word_count": 113,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Multiple rates mentioned: 97%, 0%"
+    ]
+  },
+  {
+    "chunk_id": 70,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 772,
+    "word_count": 112,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 71,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 663,
+    "word_count": 95,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains conditional or uncertain language",
+      "Multiple rates mentioned: 30%, 7.5%, 4%"
+    ]
+  },
+  {
+    "chunk_id": 72,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 243,
+    "word_count": 37,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 73,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 714,
+    "word_count": 110,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 74,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 643,
+    "word_count": 102,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains exceptions or special conditions"
+    ]
+  },
+  {
+    "chunk_id": 75,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 761,
+    "word_count": 114,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": [
+      "Contains amendments or changes to existing law"
+    ]
+  },
+  {
+    "chunk_id": 76,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 1136,
+    "word_count": 165,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 77,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 663,
+    "word_count": 96,
+    "contains_definition": false,
+    "contains_rate": true,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 78,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 714,
+    "word_count": 108,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 79,
+    "document_name": "vat_small_business_changes_2026.pdf",
+    "section_type": "full_document",
+    "section_number": "",
+    "section_title": "(anonymous)",
+    "page_start": 1,
+    "page_end": 10,
+    "char_count": 405,
+    "word_count": 61,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": true,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 80,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -859,7 +1399,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 50,
+    "chunk_id": 81,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -875,7 +1415,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 51,
+    "chunk_id": 82,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -891,7 +1431,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 52,
+    "chunk_id": 83,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -907,7 +1447,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 53,
+    "chunk_id": 84,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -925,7 +1465,7 @@
     ]
   },
   {
-    "chunk_id": 54,
+    "chunk_id": 85,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -943,7 +1483,7 @@
     ]
   },
   {
-    "chunk_id": 55,
+    "chunk_id": 86,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -961,7 +1501,7 @@
     ]
   },
   {
-    "chunk_id": 56,
+    "chunk_id": 87,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -979,7 +1519,7 @@
     ]
   },
   {
-    "chunk_id": 57,
+    "chunk_id": 88,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -997,7 +1537,7 @@
     ]
   },
   {
-    "chunk_id": 58,
+    "chunk_id": 89,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1012,12 +1552,12 @@
     "contains_amount": false,
     "uncertainty_notes": [
       "Contains conditional or uncertain language",
-      "Multiple rates mentioned: 0%, 30%, 4%, 15%",
+      "Multiple rates mentioned: 15%, 30%, 0%, 4%",
       "Contains amendments or changes to existing law"
     ]
   },
   {
-    "chunk_id": 59,
+    "chunk_id": 90,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1033,7 +1573,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 60,
+    "chunk_id": 91,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1052,7 +1592,7 @@
     ]
   },
   {
-    "chunk_id": 61,
+    "chunk_id": 92,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1068,7 +1608,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 62,
+    "chunk_id": 93,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1084,7 +1624,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 63,
+    "chunk_id": 94,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1100,7 +1640,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 64,
+    "chunk_id": 95,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1116,7 +1656,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 65,
+    "chunk_id": 96,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1132,7 +1672,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 66,
+    "chunk_id": 97,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1150,7 +1690,7 @@
     ]
   },
   {
-    "chunk_id": 67,
+    "chunk_id": 98,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1168,7 +1708,7 @@
     ]
   },
   {
-    "chunk_id": 68,
+    "chunk_id": 99,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1186,7 +1726,7 @@
     ]
   },
   {
-    "chunk_id": 69,
+    "chunk_id": 100,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1202,7 +1742,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 70,
+    "chunk_id": 101,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1220,7 +1760,7 @@
     ]
   },
   {
-    "chunk_id": 71,
+    "chunk_id": 102,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1239,7 +1779,7 @@
     ]
   },
   {
-    "chunk_id": 72,
+    "chunk_id": 103,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1255,7 +1795,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 73,
+    "chunk_id": 104,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1273,7 +1813,7 @@
     ]
   },
   {
-    "chunk_id": 74,
+    "chunk_id": 105,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1289,7 +1829,7 @@
     "uncertainty_notes": []
   },
   {
-    "chunk_id": 75,
+    "chunk_id": 106,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1307,7 +1847,7 @@
     ]
   },
   {
-    "chunk_id": 76,
+    "chunk_id": 107,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1325,7 +1865,7 @@
     ]
   },
   {
-    "chunk_id": 77,
+    "chunk_id": 108,
     "document_name": "nigeria_2025_tax_reform_laws_overview.pdf",
     "section_type": "full_document",
     "section_number": "",
@@ -1334,6 +1874,54 @@
     "page_end": 9,
     "char_count": 680,
     "word_count": 96,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": false,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 109,
+    "document_name": "nigeria_tax_reform_implementation_dec2025.pdf",
+    "section_type": "section",
+    "section_number": "2026",
+    "section_title": "as the full benefits of the tax reforms take effect.",
+    "page_start": 7,
+    "page_end": 8,
+    "char_count": 800,
+    "word_count": 118,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": true,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 110,
+    "document_name": "nigeria_tax_reform_implementation_dec2025.pdf",
+    "section_type": "section",
+    "section_number": "2026",
+    "section_title": "as the full benefits of the tax reforms take effect.",
+    "page_start": 7,
+    "page_end": 8,
+    "char_count": 732,
+    "word_count": 98,
+    "contains_definition": false,
+    "contains_rate": false,
+    "contains_date": true,
+    "contains_amount": false,
+    "uncertainty_notes": []
+  },
+  {
+    "chunk_id": 111,
+    "document_name": "nigeria_tax_reform_implementation_dec2025.pdf",
+    "section_type": "section",
+    "section_number": "2026",
+    "section_title": "as the full benefits of the tax reforms take effect.",
+    "page_start": 7,
+    "page_end": 8,
+    "char_count": 435,
+    "word_count": 55,
     "contains_definition": false,
     "contains_rate": false,
     "contains_date": false,

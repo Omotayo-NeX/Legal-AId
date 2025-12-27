@@ -1,5 +1,5 @@
 {
-  "download_timestamp": "2025-11-04T14:39:18.726004",
+  "download_timestamp": "2025-12-27T00:00:00.000000",
   "timezone": "Africa/Lagos",
   "sources": [
     {
@@ -81,6 +81,36 @@
       "downloaded": true,
       "file_size_bytes": 19495,
       "local_path": "/Users/mac/Desktop/Legal AId/data/raw/nigeria_2025_tax_reform_laws_overview.pdf"
+    },
+    {
+      "name": "Nigeria Tax Reform Implementation Update - December 2025",
+      "url": "local",
+      "filename": "nigeria_tax_reform_implementation_dec2025.pdf",
+      "description": "Latest implementation update as of December 27, 2025, including presidential confirmation, stakeholder statements, and January 1, 2026 commencement details",
+      "type": "news_update",
+      "downloaded": true,
+      "file_size_bytes": 14488,
+      "local_path": "/Users/mac/Desktop/legal-AId/data/raw/nigeria_tax_reform_implementation_dec2025.pdf"
+    },
+    {
+      "name": "TIN Bank Account Requirements 2026",
+      "url": "local",
+      "filename": "tin_bank_account_requirements_2026.pdf",
+      "description": "Official guidance on Tax Identification Number (TIN) requirements for bank account operations from January 1, 2026, including exemptions and clarifications",
+      "type": "guidance_document",
+      "downloaded": true,
+      "file_size_bytes": 16863,
+      "local_path": "/Users/mac/Desktop/legal-AId/data/raw/tin_bank_account_requirements_2026.pdf"
+    },
+    {
+      "name": "VAT and Small Business Changes Under Nigeria Tax Act 2025",
+      "url": "local",
+      "filename": "vat_small_business_changes_2026.pdf",
+      "description": "Comprehensive guide to VAT reforms, zero-rated items, SME tax exemptions, and compliance requirements effective January 1, 2026",
+      "type": "guidance_document",
+      "downloaded": true,
+      "file_size_bytes": 19191,
+      "local_path": "/Users/mac/Desktop/legal-AId/data/raw/vat_small_business_changes_2026.pdf"
     }
   ]
 }
