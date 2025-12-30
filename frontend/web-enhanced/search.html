@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Search Nigerian Tax Reform Acts 2025-2026 with AI-powered Legal AI.d">
     <title>Tax Law Search - Legal AI.d</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R01JFPXNFS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-R01JFPXNFS');
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -1211,6 +1220,13 @@
             const query = document.getElementById('queryInput').value.trim();
             if (!query) return;
 
+            // Track search in Google Analytics
+            gtag('event', 'search', {
+                'event_category': 'Tax Law Search',
+                'event_label': query.substring(0, 100),
+                'search_term': query.substring(0, 100)
+            });
+
             // Hide all sections
             document.getElementById('welcomeState').style.display = 'none';
             document.getElementById('resultsSection').style.display = 'none';
@@ -1330,6 +1346,13 @@
                 pageTitle.textContent = '🧮 2026 Tax Calculator';
                 pageSubtitle.textContent = 'Calculate your tax liability under Nigeria\'s new 2026 Tax Reform Act';
             }
+
+            // Track tab switch in Google Analytics
+            gtag('event', 'tab_switch', {
+                'event_category': 'Navigation',
+                'event_label': tab === 'search' ? 'Tax Law Search' : 'Tax Calculator',
+                'tab_name': tab
+            });
         }
 
         // Set tax year mode
@@ -1531,6 +1554,17 @@
                 alert('Basic Salary cannot exceed Gross Income');
                 return;
             }
+
+            // Track tax calculation in Google Analytics
+            gtag('event', 'tax_calculation', {
+                'event_category': 'Calculator',
+                'event_label': selectedTaxYear === 'compare' ? 'Compare Mode' : `Year ${selectedTaxYear}`,
+                'income_range': grossIncome < 1000000 ? 'Under 1M' :
+                               grossIncome < 5000000 ? '1M-5M' :
+                               grossIncome < 12000000 ? '5M-12M' :
+                               grossIncome < 25000000 ? '12M-25M' : 'Over 25M',
+                'tax_year': selectedTaxYear
+            });
 
             // Calculate based on selected tax year
             if (selectedTaxYear === 'compare') {
