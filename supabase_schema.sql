@@ -113,3 +113,52 @@ COMMENT ON COLUMN legal_aid_users.query_count_today IS 'Number of queries made t
 COMMENT ON COLUMN legal_aid_users.query_count_month IS 'Number of queries made this month';
 COMMENT ON COLUMN legal_aid_users.last_query_date IS 'Date of last query';
 COMMENT ON COLUMN legal_aid_users.is_blocked IS 'Whether user is blocked for abuse';
+
+-- =============================================================================
+-- Search Logs Table
+-- Tracks all search queries for analytics
+-- =============================================================================
+
+DROP TABLE IF EXISTS search_logs CASCADE;
+
+CREATE TABLE search_logs (
+    id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+    query TEXT NOT NULL,
+    user_email VARCHAR(255),
+    ip_address VARCHAR(45),
+    is_tax_related BOOLEAN DEFAULT TRUE,
+    response_time_ms INTEGER,
+    tokens_used INTEGER,
+    chunks_retrieved INTEGER,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Indexes for search logs
+CREATE INDEX idx_search_logs_created_at ON search_logs(created_at DESC);
+CREATE INDEX idx_search_logs_user_email ON search_logs(user_email);
+CREATE INDEX idx_search_logs_query ON search_logs USING gin(to_tsvector('english', query));
+
+-- Enable RLS
+ALTER TABLE search_logs ENABLE ROW LEVEL SECURITY;
+
+-- Policies for search_logs (service_role bypasses RLS automatically)
+CREATE POLICY "anon_can_insert_logs"
+ON search_logs
+FOR INSERT
+TO anon
+WITH CHECK (true);
+
+CREATE POLICY "anon_can_select_logs"
+ON search_logs
+FOR SELECT
+TO anon
+USING (true);
+
+-- Comments
+COMMENT ON TABLE search_logs IS 'Stores all search queries for analytics and insights';
+COMMENT ON COLUMN search_logs.query IS 'The actual search query text';
+COMMENT ON COLUMN search_logs.user_email IS 'Email of user who made the query';
+COMMENT ON COLUMN search_logs.is_tax_related IS 'Whether the query was tax-related';
+COMMENT ON COLUMN search_logs.response_time_ms IS 'Response time in milliseconds';
+COMMENT ON COLUMN search_logs.tokens_used IS 'Number of tokens used for the response';
+COMMENT ON COLUMN search_logs.chunks_retrieved IS 'Number of chunks retrieved from RAG';

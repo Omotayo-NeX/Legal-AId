@@ -177,6 +177,42 @@ class SupabaseManager:
         response = self.client.table("legal_aid_users").select("*").eq("email", email).execute()
         return response.data[0] if response.data else None
 
+    async def log_search(
+        self,
+        query: str,
+        user_email: Optional[str] = None,
+        ip_address: Optional[str] = None,
+        is_tax_related: bool = True,
+        response_time_ms: Optional[int] = None,
+        tokens_used: Optional[int] = None,
+        chunks_retrieved: Optional[int] = None
+    ) -> None:
+        """
+        Log a search query for analytics.
+
+        Args:
+            query: The search query text
+            user_email: User's email address
+            ip_address: User's IP address
+            is_tax_related: Whether query was tax-related
+            response_time_ms: Response time in milliseconds
+            tokens_used: Number of tokens used
+            chunks_retrieved: Number of RAG chunks retrieved
+        """
+        try:
+            log_entry = {
+                "query": query,
+                "user_email": user_email,
+                "ip_address": ip_address,
+                "is_tax_related": is_tax_related,
+                "response_time_ms": response_time_ms,
+                "tokens_used": tokens_used,
+                "chunks_retrieved": chunks_retrieved
+            }
+            self.client.table("search_logs").insert(log_entry).execute()
+        except Exception as e:
+            print(f"Error logging search: {e}")
+
 
 # Create global instance (will be initialized in API)
 supabase_manager: Optional[SupabaseManager] = None

@@ -5,6 +5,7 @@ This API provides endpoints for the React Native mobile app to query the RAG sys
 """
 
 import sys
+import time
 from pathlib import Path
 from typing import List, Optional, Dict, Any
 from datetime import datetime
@@ -376,10 +377,14 @@ async def chat(request: Request, chat_request: ChatRequest):
     3. If yes, uses RAG to retrieve relevant context
     4. Returns answer with sources and citations
     5. Increments user query count
+    6. Logs search query for analytics
     """
+    start_time = time.time()
+
     try:
         # Check for email in headers
         user_email = request.headers.get("X-User-Email")
+        client_ip = request.client.host if request.client else "unknown"
 
         if not user_email and SUPABASE_ENABLED:
             raise HTTPException(
@@ -390,7 +395,6 @@ async def chat(request: Request, chat_request: ChatRequest):
         # Verify email and check rate limits (if Supabase enabled)
         if SUPABASE_ENABLED and user_email:
             supabase = get_supabase_manager()
-            client_ip = request.client.host if request.client else "unknown"
 
             allowed, reason, user = await supabase.check_rate_limit(user_email, client_ip)
 
@@ -415,7 +419,26 @@ async def chat(request: Request, chat_request: ChatRequest):
             )
 
         # Check if query is tax-related
-        if not is_tax_related_query(message):
+        tax_related = is_tax_related_query(message)
+
+        if not tax_related:
+            # Log non-tax-related query
+            if SUPABASE_ENABLED:
+                try:
+                    supabase = get_supabase_manager()
+                    response_time_ms = int((time.time() - start_time) * 1000)
+                    await supabase.log_search(
+                        query=message,
+                        user_email=user_email,
+                        ip_address=client_ip,
+                        is_tax_related=False,
+                        response_time_ms=response_time_ms,
+                        tokens_used=0,
+                        chunks_retrieved=0
+                    )
+                except Exception as e:
+                    print(f"Error logging search: {e}")
+
             return {
                 "answer": (
                     "I specialize in Nigerian tax law, particularly the Tax Reform Acts 2025-2026. "
@@ -440,12 +463,32 @@ async def chat(request: Request, chat_request: ChatRequest):
         # Use RAG pipeline to answer
         result = rag_pipeline.query(message, temperature=0.1)
 
-        # Increment usage count (if Supabase enabled)
-        if SUPABASE_ENABLED and user_email:
+        # Calculate response time
+        response_time_ms = int((time.time() - start_time) * 1000)
+
+        # Increment usage count and log search (if Supabase enabled)
+        if SUPABASE_ENABLED:
+            supabase = get_supabase_manager()
+
+            if user_email:
+                try:
+                    await supabase.increment_usage(user_email)
+                except Exception as e:
+                    print(f"Error incrementing usage: {e}")
+
+            # Log the search query
             try:
-                await supabase.increment_usage(user_email)
+                await supabase.log_search(
+                    query=message,
+                    user_email=user_email,
+                    ip_address=client_ip,
+                    is_tax_related=True,
+                    response_time_ms=response_time_ms,
+                    tokens_used=result.get("tokens_used"),
+                    chunks_retrieved=result.get("retrieved_chunks", 0)
+                )
             except Exception as e:
-                print(f"Error incrementing usage: {e}")
+                print(f"Error logging search: {e}")
 
         # Format response
         response = {
