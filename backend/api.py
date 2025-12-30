@@ -386,7 +386,10 @@ async def chat(request: Request, chat_request: ChatRequest):
         user_email = request.headers.get("X-User-Email")
         client_ip = request.client.host if request.client else "unknown"
 
-        if not user_email and SUPABASE_ENABLED:
+        # Check if request is from web frontend (no email required for web search)
+        is_web_request = request.headers.get("Origin") or request.headers.get("Referer")
+
+        if not user_email and SUPABASE_ENABLED and not is_web_request:
             raise HTTPException(
                 status_code=401,
                 detail="Email required. Please provide your email to use this service."
